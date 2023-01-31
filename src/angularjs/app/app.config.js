@@ -11,19 +11,19 @@ angular.module("app")
             .when("/", {
                 template: "<home-page></home-page>" 
             })
-            .when("/contact", {
+            .when("/beauty-of-beaches-demo/contact", {
                 template: "<contact-page></contact-page>"
             })
-            .when("/about", {
+            .when("/beauty-of-beaches-demo/about", {
                 template: "<about-page></about-page>"
             })
-            .when("/gallery", {
+            .when("/beauty-of-beaches-demo/gallery", {
                 template: "<gallery-page></gallery-page>"
             })
-            .when("/gallery/beach/:id", {
+            .when("/beauty-of-beaches-demo/gallery/beach/:id", {
                 template: "<beach-detail></beach-detail>"
             })
-            .when("/festivals", {
+            .when("/beauty-of-beaches-demo/festivals", {
                 template: "<festival-page></festival-page>"
             })
     })
