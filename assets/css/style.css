@@ -193,7 +193,7 @@ header .wrapper-other-opt {
 }
 
 .wave {
-  background: url(/assets/img/animate/wave.svg) repeat-x;
+  background: url(assets/img/animate/wave.svg) repeat-x;
   position: absolute;
   top: -198px;
   /* left: 20%; */
