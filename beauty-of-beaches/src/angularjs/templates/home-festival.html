@@ -1,0 +1,27 @@
+<section class="wrapper festival-section pos-relative">
+    <div class="inner">
+        <h2>Upcoming festivals</h2>
+
+        <div class="festival-list">
+            <div class="festival-card flex" ng-repeat="fes in homeFes">
+                <div class="festival__img">
+                    <img src="{{fes.img}}" alt="{{fes.alt}}">
+                </div>
+
+                <div class="festival__info pos-relative">
+                    <h4 class="festival__name">{{fes.name}}</h4>
+                    <p class="festival__location">Location: {{fes.location}}</p>
+                    <p class="festival__desc">{{fes.description}}</p>
+                    <div class="festival__countdown flex-center">
+                        <div class="count count-month">0 <span>Month</span></div>
+                        <div class="count count-day">1 <span>Day</span></div>
+                        <div class="count count-hour">2 <span>Hours</span></div>
+                        <div class="count count-minute">3 <span>Minutes</span></div>
+                        <div class="count count-second">4 <span>Seconds</span></div>
+                    </div>
+                </div>
+            </div>
+
+        <a href="/festivals" class="festival-link pos-center-x">See more</a>
+    </div>
+</section>

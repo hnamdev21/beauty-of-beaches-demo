@@ -1,0 +1,29 @@
+<section class="wrapper festivals-section">
+    <div class="inner">
+        <h2>Create your moment!</h2>
+        <div class="filter-festival">
+
+        </div>
+
+        <div class="wrapper-festivals">
+            <div class="festival flex" ng-repeat="festival in festivals">
+                <div class="festival__img">
+                    <img src="{{festival.img}}" alt="{{festival.alt}}">
+                </div>
+                
+                <div class="festival__info pos-relative">
+                    <h4 class="festival__name">{{festival.name}}</h4>
+                    <p class="festival__location">Location: {{festival.location}}</p>
+                    <p class="festival__desc">{{festival.description}}</p>
+                    <div class="festival__countdown flex-center">
+                        <div class="count count-month">0 <span>Month</span></div>
+                        <div class="count count-day">1 <span>Day</span></div>
+                        <div class="count count-hour">2 <span>Hours</span></div>
+                        <div class="count count-minute">3 <span>Minutes</span></div>
+                        <div class="count count-second">4 <span>Seconds</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

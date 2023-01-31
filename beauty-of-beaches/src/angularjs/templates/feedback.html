@@ -1,0 +1,25 @@
+<section class="wrapper feedback-section">
+    <div class="inner">
+        <h2 class="title-list">Latest feedbacks</h2>
+        <div class="wrapper-list-auto">
+            <div class="feedback-list flex">
+                <div class="feedback" ng-repeat="feedback in feedbacks">
+                    <div class="feedback__top pos-relative">
+                        <h4 class="feedback__name">{{feedback.userName}}</h4>
+                        <div class="feedback__date-upload">{{feedback.publishDate}}</div>
+                    </div>
+
+                    <div class="feedback__bot">
+                        <div class="feedback__img">
+                            <img src="{{feedback.imgFeedback}}" alt="{{feedback.alt}}">
+                        </div>
+
+                        <p class="feedback__p">
+                            {{feedback.userFeedback}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

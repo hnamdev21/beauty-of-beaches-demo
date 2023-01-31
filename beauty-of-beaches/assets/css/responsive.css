@@ -1,0 +1,15 @@
+/* Mobile */
+@media (max-width: 739px) {
+  .inner,
+  .container {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+/* @media (min-width: 740px) and (max-width: 1023px) {
+  .inner,
+  .container {
+    width: calc(100% - 40px);
+  }
+} */

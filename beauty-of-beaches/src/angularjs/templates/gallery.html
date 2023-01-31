@@ -1,0 +1,139 @@
+<div onload="getLoaction('gallery')">
+    <section class="wrapper beaches-section">
+        <div class="inner">
+            <h2>Choose your peace</h2>
+    
+            <div class="grid">
+                <div class="side-bar">
+                    <div class="wrapper-check-order-by wrapper-check">
+                        <h4>Sort by:</h4>
+                    </div>
+    
+    
+                    <div class="wrapper-check-continents wrapper-check">
+                        <h4>Continent:</h4>
+                        <div class="flex">
+                            <div class="wrapper-check">
+                                <label for="oceaniaCheckBox">Oceania</label>
+                                <input type="checkbox" id="oceaniaCheckBox" ng-model="continents.oceania">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="americaCheckBox">America</label>
+                                <input type="checkbox" id="americaCheckBox" ng-model="continents.america">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="africaCheckBox">Africa</label>
+                                <input type="checkbox" id="africaCheckBox" ng-model="continents.africa">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="asiaCheckBox">Asia</label>
+                                <input type="checkbox" id="asiaCheckBox" ng-model="continents.asia">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="europeCheckBox">Europe</label>
+                                <input type="checkbox" id="europeCheckBox" ng-model="continents.europe">
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="wrapper-check-zone wrapper-check">
+                        <h4>Zone-wise:</h4>
+                        <div class="flex">
+                            <div class="wrapper-check">
+                                <label for="northCheckBox">North</label>
+                                <input type="checkbox" id="northCheckBoxe" ng-model="zone.north">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="westernCheckBox">Western</label>
+                                <input type="checkbox" id="westernCheckBox" ng-model="zone.western">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="southeastCheckBox">Southeast</label>
+                                <input type="checkbox" id="southeastCheckBox" ng-model="zone.southeast">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="eastCheckBox">East</label>
+                                <input type="checkbox" id="eastCheckBox" ng-model="zone.east">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="southCheckBox">South</label>
+                                <input type="checkbox" id="southCheckBox" ng-model="zone.south">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="sernwernCheckBox">Southern-Western</label>
+                                <input type="checkbox" id="sernwernCheckBox" ng-model="zone.sernwern">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="caribbeanCheckBox">Caribbean</label>
+                                <input type="checkbox" id="caribbeanCheckBox" ng-model="zone.caribbean">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="swernCheckBox">Southwestern</label>
+                                <input type="checkbox" id="swernCheckBox" ng-model="zone.southwestern">
+                            </div>
+    
+                            <div class="wrapper-check">
+                                <label for="nwCheckBox">North-West</label>
+                                <input type="checkbox" id="nwCheckBox" ng-model="zone.northwest">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="wrapper-beaches">
+                    <div class="search-box">
+                        <form action="" class="search-form pos-relative">
+                            <input type="text" class="search-input" ng-model="searchInput">
+                            <button class="search-btn"><i class="ti-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="beaches">
+                        <div class="beach-card pos-relative" ng-repeat="beach in beaches | checkContinents:searchInput:continents:zone">
+                            <div class="card__top pos-relative">
+                                <img src="{{beach.image1}}" alt="{{beach.alt}}">
+                                <button><i class="heart-icon fa-regular fa-heart"></i></button>
+                            </div>
+    
+    
+                            <div class="card__bot">
+                                <h4 class="beach__name">{{beach.name}}</h4>
+                                <ul>
+                                    <li class="beach__location">Location: {{beach.location}}</li>
+                                    <li class="beach__rate">Rate: {{beach.rate}}</li>
+                                    <li class="beach__visited">Views: {{beach.views}}</li>
+                                    <li class="beach__continents">{{beach.continents}}</li>
+                                    <li class="beach__zone">{{beach.zone}}</li>
+                                </ul>
+    
+                            </div>
+                            <a href="#" class="desc pos-center-x" go click="goToThePath(beach)">Learn more</a>
+                        </div>
+                    </div>
+    
+                    <div class="pagination flex-center">
+                        <button class="btn left-btn" ng-click="prevPagination()"><i class="fa-solid fa-angle-left"></i></button>
+                        <ul class="flex">
+                            <li ng-repeat="page in arrayPages">
+                                <a href="#" ng-click="changePagination(page)">{{page}}</a>
+                            </li>
+                        </ul>
+                        <button class="btn right-btn" ng-click="nextPagination()"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

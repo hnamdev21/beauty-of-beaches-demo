@@ -1,0 +1,30 @@
+<section class="wrapper beach-detail-section" ng-init="declare()">
+    <div class="inner">
+        <h2 class="beach__name">{{name}}</h2>
+        <div class="wrapper-img beach__img-1">
+            <img src="{{image1}}" alt="{{alt}}">
+        </div>
+
+        <ul class="beach__info">
+            <li class="beach__location">Location: {{location}}</li>
+            <li class="beach__rate">Rate: {{rate}}</li>
+            <li class="beach__views">Views: {{views}}</li>
+            <li class="beach__famous">Famous: {{famous}}</li>
+        </ul>
+
+
+        <p class="wrapper-desc beach__desc-1">{{desc1}}</p>
+
+        <p class="wrapper-desc beach__desc-2" ng-if="desc2">{{desc2}}</p>
+
+        <p class="wrapper-desc beach__desc-3" ng-if="desc3">{{desc3}}</p>
+
+        <div class="wrapper-img beach__img-2" ng-if="image2">
+            <img src="{{image2}}" alt="{{alt}}">
+        </div>
+
+        <div class="wrapper-img beach__img-3" ng-if="image3">
+            <img src="{{image3}}" alt="{{alt}}">
+        </div>
+    </div>
+</section>

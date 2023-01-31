@@ -1,0 +1,182 @@
+.wrapper {
+  display: block;
+  width: 100%;
+}
+
+.inner,
+.container {
+  position: relative;
+  width: min(100% - 40px, 1200px);
+  height: 100%;
+  margin: 0 auto;
+}
+
+.title--l {
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+.title--md {
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.title--sm {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.desc {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pos-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pos-center-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.grid-17 {
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  column-gap: 20px;
+}
+
+.grid-16 {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  column-gap: 20px;
+}
+
+.grid-15 {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  column-gap: 20px;
+}
+
+.grid-14 {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  column-gap: 20px;
+}
+
+.grid-13 {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  column-gap: 20px;
+}
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+}
+
+.grid-11 {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  column-gap: 20px;
+}
+
+.grid-10 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 20px;
+}
+
+.grid-9 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  column-gap: 20px;
+}
+
+.grid-8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 20px;
+}
+
+.grid-7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 20px;
+}
+
+.grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 20px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.grid-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(739px, 1fr));
+}

@@ -1,0 +1,31 @@
+<section class="wrapper list-section top-10-visited">
+    <div class="inner">
+        <h4 class="title-list">Top 10 most visited beaches in the World</h4>
+        <div class="scroll-btn pos-center-y">
+            <button class="circle left-btn pos-center-y"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="circle right-btn pos-center-y"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="wrapper-list">
+            <div class="card-list flex">
+                <div class="card pos-relative" ng-repeat="beach in topView">
+                    <div class="card__top pos-relative">
+                        <img src="{{beach.image1}}" alt="{{beach.alt}}">
+                        <button><i class="heart-icon fa-regular fa-heart"></i></button>
+                    </div>
+
+
+                    <div class="card__bot">
+                        <h4 class="beach__name">{{beach.name}}</h4>
+                        <ul>
+                            <li class="beach__location">Location: {{beach.location}}</li>
+                            <li class="beach__rate">Rate: {{beach.rate}}</li>
+                            <li class="beach__views">Views: {{beach.views}}</li>
+                        </ul>
+
+                    </div>
+                    <a href="#" class="desc pos-center-x" go click="goToThePath(beach)">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
