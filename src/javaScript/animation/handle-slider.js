@@ -4,23 +4,23 @@ window.addEventListener("load", () => {
 
     const subImg = [
         {
-            url: "/assets/img/sliders/banguerra-island-2.jpg",
+            url: "assets/img/sliders/banguerra-island-2.jpg",
             alt: "Banguerra Island"
         },
         {
-            url: "/assets/img/sliders/anse-source-d-argent-2.jpg",
+            url: "assets/img/sliders/anse-source-d-argent-2.jpg",
             alt: "Anse Source D'Argent Beach"
         },
         {
-            url: "/assets/img/sliders/cancun-1.jpg",
+            url: "assets/img/sliders/cancun-1.jpg",
             alt: "Cancun Beach"
         },
         {
-            url: "/assets/img/sliders/chesterman-beach-2.jpg",
+            url: "assets/img/sliders/chesterman-beach-2.jpg",
             alt: "Chesterman Beach"
         },
         {
-            url: "/assets/img/sliders/whitehaven-beach.jpg",
+            url: "assets/img/sliders/whitehaven-beach.jpg",
             alt: "Whitehaven Beach"
         },
     ]
