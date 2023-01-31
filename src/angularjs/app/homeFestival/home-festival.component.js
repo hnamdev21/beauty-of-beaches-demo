@@ -2,7 +2,7 @@
 
 angular.module("homeFestival")
     .component("homeFestival", {
-        templateUrl: "/src/angularjs/templates/home-festival.html",
+        templateUrl: "src/angularjs/templates/home-festival.html",
         controller: function(Festivals, $scope) {
             Festivals.query(function(data) {
                 $scope.homeFes = []

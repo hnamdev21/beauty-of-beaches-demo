@@ -2,7 +2,7 @@
 
 angular.module("beaches")
     .factory("Beaches", function($resource) {
-        const url = '/assets/data/beaches.json'
+        const url = 'assets/data/beaches.json'
 
         return $resource(url, {}, {
             query: {

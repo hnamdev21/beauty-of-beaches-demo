@@ -2,7 +2,7 @@
 
 angular.module("galleryPage")
     .component("galleryPage", {
-        templateUrl: "/src/angularjs/templates/gallery.html",
+        templateUrl: "src/angularjs/templates/gallery.html",
         controller: function(Beaches, $scope, $location, $rootScope) {
             const beachesPerPage = 15
             let totalPages = 0

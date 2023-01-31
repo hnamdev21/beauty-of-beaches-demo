@@ -2,7 +2,7 @@
 
 angular.module("beachDetail")
     .component("beachDetail", {
-        templateUrl: "/src/angularjs/templates/beach-detail.html",
+        templateUrl: "src/angularjs/templates/beach-detail.html",
         controller: function($scope, Beaches, $routeParams) {
             Beaches.query(function(beaches) {
                 angular.forEach(beaches, beach => {

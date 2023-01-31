@@ -2,7 +2,7 @@
 
 angular.module("topFamous")
     .component("topFamous", {
-        templateUrl: "/src/angularjs/templates/top-famous.html",
+        templateUrl: "src/angularjs/templates/top-famous.html",
         controller: function(Beaches, $scope, $rootScope, $location) {
             Beaches.query(function(data) {
                 $scope.beaches = data

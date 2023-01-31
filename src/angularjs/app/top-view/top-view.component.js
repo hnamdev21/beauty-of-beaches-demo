@@ -2,7 +2,7 @@
 
 angular.module("topView")
     .component("topView", {
-        templateUrl: "/src/angularjs/templates/top-view.html",
+        templateUrl: "src/angularjs/templates/top-view.html",
         controller: function(Beaches, $scope, $location, $rootScope) {
             Beaches.query(function(data) {
                 $scope.beaches = data

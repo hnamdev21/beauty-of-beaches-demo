@@ -2,7 +2,7 @@
 
 angular.module("homePage")
     .component("homePage", {
-        templateUrl: "/src/angularjs/templates/home.html",
+        templateUrl: "src/angularjs/templates/home.html",
         controller: function($scope) {
 
         }

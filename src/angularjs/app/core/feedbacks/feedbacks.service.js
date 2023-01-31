@@ -2,7 +2,7 @@
 
 angular.module("feedbacks")
     .factory("Feedbacks", function($resource) {
-        const url = "/assets/data/feedbacks.json"
+        const url = "assets/data/feedbacks.json"
 
         return $resource(url, {}, {
             query: {
