@@ -3,7 +3,8 @@
 angular.module("app")
     .config(function($routeProvider, $locationProvider) {
         $locationProvider.html5Mode({
-            enabled: true
+            enabled: true,
+            requireBase: false
         })
 
         $routeProvider
