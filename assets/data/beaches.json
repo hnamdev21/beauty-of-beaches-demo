@@ -11,8 +11,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/al-mugahsail-salalah__oman/al-mughsail-salalah.jpg",
-        "image2": "/assets/img/gallery/al-mugahsail-salalah__oman/al-mughsail-salalah-2.jfif",
+        "image1": "assets/img/gallery/al-mugahsail-salalah__oman/al-mughsail-salalah.jpg",
+        "image2": "assets/img/gallery/al-mugahsail-salalah__oman/al-mughsail-salalah-2.jfif",
         "image3": ""
     },
     {
@@ -27,8 +27,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/amed__bali/amed.jpg",
-        "image2": "/assets/img/gallery/amed__bali/amed-2.jfif",
+        "image1": "assets/img/gallery/amed__bali/amed.jpg",
+        "image2": "assets/img/gallery/amed__bali/amed-2.jfif",
         "image3": ""
     },
     {
@@ -43,9 +43,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/anse-source-d.argent__seychelles/anse-source-d-argent-1.jpg",
-        "image2": "/assets/img/gallery/anse-source-d.argent__seychelles/anse-source-d-argent-2.jpg",
-        "image3": "/assets/img/gallery/anse-source-d.argent__seychelles/anse-source-d-argent-3.jpg"
+        "image1": "assets/img/gallery/anse-source-d.argent__seychelles/anse-source-d-argent-1.jpg",
+        "image2": "assets/img/gallery/anse-source-d.argent__seychelles/anse-source-d-argent-2.jpg",
+        "image3": "assets/img/gallery/anse-source-d.argent__seychelles/anse-source-d-argent-3.jpg"
     },
     {
         "id": 4,
@@ -59,8 +59,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/awaroa-south-island__new-zealand/awaroa-south-island.jpg",
-        "image2": "/assets/img/gallery/awaroa-south-island__new-zealand/awaroa-south-island-2.jpg",
+        "image1": "assets/img/gallery/awaroa-south-island__new-zealand/awaroa-south-island.jpg",
+        "image2": "assets/img/gallery/awaroa-south-island__new-zealand/awaroa-south-island-2.jpg",
         "image3": ""
     },
     {
@@ -75,8 +75,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/baia-do-sancho__brazil/baia-do-sancho-1.jpg",
-        "image2": "/assets/img/gallery/baia-do-sancho__brazil/baia-do-sancho-2.jpg",
+        "image1": "assets/img/gallery/baia-do-sancho__brazil/baia-do-sancho-1.jpg",
+        "image2": "assets/img/gallery/baia-do-sancho__brazil/baia-do-sancho-2.jpg",
         "image3": ""
     },
     {
@@ -91,9 +91,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/bai-dam-trau__vietnam/bai-dam-trau-1.jpg",
-        "image2": "/assets/img/gallery/bai-dam-trau__vietnam/bai-dam-trau-2.jpg",
-        "image3": "/assets/img/gallery/bai-dam-trau__vietnam/bai-dam-trau-3.jpg"
+        "image1": "assets/img/gallery/bai-dam-trau__vietnam/bai-dam-trau-1.jpg",
+        "image2": "assets/img/gallery/bai-dam-trau__vietnam/bai-dam-trau-2.jpg",
+        "image3": "assets/img/gallery/bai-dam-trau__vietnam/bai-dam-trau-3.jpg"
     },
     {
         "id": 7,
@@ -107,9 +107,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/benguerra-island__mozambique/banguerra-island-1.jpg",
-        "image2": "/assets/img/gallery/benguerra-island__mozambique/banguerra-island-2.jpg",
-        "image3": "/assets/img/gallery/benguerra-island__mozambique/banguerra-island-3.jpg"
+        "image1": "assets/img/gallery/benguerra-island__mozambique/banguerra-island-1.jpg",
+        "image2": "assets/img/gallery/benguerra-island__mozambique/banguerra-island-2.jpg",
+        "image3": "assets/img/gallery/benguerra-island__mozambique/banguerra-island-3.jpg"
     },
     {
         "id": 8,
@@ -123,8 +123,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/camps-bay__cape-town/camps-bay.jpg",
-        "image2": "/assets/img/gallery/camps-bay__cape-town/camps-bay-2.jpg",
+        "image1": "assets/img/gallery/camps-bay__cape-town/camps-bay.jpg",
+        "image2": "assets/img/gallery/camps-bay__cape-town/camps-bay-2.jpg",
         "image3": ""
     },
     {
@@ -139,8 +139,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/cancun__mexico/cancun-1.jpg",
-        "image2": "/assets/img/gallery/cancun__mexico/cancun-2.jpg",
+        "image1": "assets/img/gallery/cancun__mexico/cancun-1.jpg",
+        "image2": "assets/img/gallery/cancun__mexico/cancun-2.jpg",
         "image3": ""
     },    {
         "id": 10,
@@ -154,8 +154,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/cape-le-grand__australia/cape-le-grand.jpg",
-        "image2": "/assets/img/gallery/cape-le-grand__australia/cape-le-grand-2.jpg",
+        "image1": "assets/img/gallery/cape-le-grand__australia/cape-le-grand.jpg",
+        "image2": "assets/img/gallery/cape-le-grand__australia/cape-le-grand-2.jpg",
         "image3": ""
     },
     {
@@ -170,8 +170,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/clearwater__usa/clearwater.jpg",
-        "image2": "/assets/img/gallery/clearwater__usa/clearwater-2.webp",
+        "image1": "assets/img/gallery/clearwater__usa/clearwater.jpg",
+        "image2": "assets/img/gallery/clearwater__usa/clearwater-2.webp",
         "image3": ""
     },
     {
@@ -186,8 +186,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/copacabana__brazil/copacabana.jpg",
-        "image2": "/assets/img/gallery/copacabana__brazil/copacabana-2.webp",
+        "image1": "assets/img/gallery/copacabana__brazil/copacabana.jpg",
+        "image2": "assets/img/gallery/copacabana__brazil/copacabana-2.webp",
         "image3": ""
     },
     {
@@ -202,8 +202,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/chesterman-beach__canada/chesterman-beach-1.jpg",
-        "image2": "/assets/img/gallery/chesterman-beach__canada/chesterman-beach-2.jpg",
+        "image1": "assets/img/gallery/chesterman-beach__canada/chesterman-beach-1.jpg",
+        "image2": "assets/img/gallery/chesterman-beach__canada/chesterman-beach-2.jpg",
         "image3": ""
     },
     {
@@ -218,8 +218,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/da-nang-beach__vietnam/da-nang-1.jpg",
-        "image2": "/assets/img/gallery/da-nang-beach__vietnam/da-nang-2.jpg",
+        "image1": "assets/img/gallery/da-nang-beach__vietnam/da-nang-1.jpg",
+        "image2": "assets/img/gallery/da-nang-beach__vietnam/da-nang-2.jpg",
         "image3": ""
     },
     {
@@ -234,8 +234,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/die-plaat__africa/die-plaat-1.jpg",
-        "image2": "/assets/img/gallery/die-plaat__africa/die-plaat-2.jpg",
+        "image1": "assets/img/gallery/die-plaat__africa/die-plaat-1.jpg",
+        "image2": "assets/img/gallery/die-plaat__africa/die-plaat-2.jpg",
         "image3": ""
     },
     {
@@ -250,8 +250,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/dolfynstrand__namibia/dolfynstrand-1.jpg",
-        "image2": "/assets/img/gallery/dolfynstrand__namibia/dolfynstrand-2.jpg",
+        "image1": "assets/img/gallery/dolfynstrand__namibia/dolfynstrand-1.jpg",
+        "image2": "assets/img/gallery/dolfynstrand__namibia/dolfynstrand-2.jpg",
         "image3": ""
     },
     {
@@ -266,8 +266,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/dune-du-pilat__france/dune-du-pilat-1.jpg",
-        "image2": "/assets/img/gallery/dune-du-pilat__france/dune-du-pilat-2.jpg",
+        "image1": "assets/img/gallery/dune-du-pilat__france/dune-du-pilat-1.jpg",
+        "image2": "assets/img/gallery/dune-du-pilat__france/dune-du-pilat-2.jpg",
         "image3": ""
     },
     {
@@ -282,8 +282,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/elafonissi-beach__greece/elafonissi-beach-1.jpg",
-        "image2": "/assets/img/gallery/elafonissi-beach__greece/elafonissi-beach-2.jpg",
+        "image1": "assets/img/gallery/elafonissi-beach__greece/elafonissi-beach-1.jpg",
+        "image2": "assets/img/gallery/elafonissi-beach__greece/elafonissi-beach-2.jpg",
         "image3": ""
     },
     {
@@ -298,8 +298,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/fakarava__french-polynesia/fakarava-1.jpg",
-        "image2": "/assets/img/gallery/fakarava__french-polynesia/fakarava-2.jpg",
+        "image1": "assets/img/gallery/fakarava__french-polynesia/fakarava-1.jpg",
+        "image2": "assets/img/gallery/fakarava__french-polynesia/fakarava-2.jpg",
         "image3": ""
     },
     {
@@ -314,8 +314,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/fiji__australia/fiji-1.jpg",
-        "image2": "/assets/img/gallery/fiji__australia/fiji-2.jpg",
+        "image1": "assets/img/gallery/fiji__australia/fiji-1.jpg",
+        "image2": "assets/img/gallery/fiji__australia/fiji-2.jpg",
         "image3": ""
     },
     {
@@ -330,8 +330,8 @@
         "views": 1,
         "rate": 4,
         "famous": 3,
-        "image1": "/assets/img/gallery/gantheaume-point__australia/gantheaume-point-1.jpg",
-        "image2": "/assets/img/gallery/gantheaume-point__australia/gantheaume-point-2.jpg",
+        "image1": "assets/img/gallery/gantheaume-point__australia/gantheaume-point-1.jpg",
+        "image2": "assets/img/gallery/gantheaume-point__australia/gantheaume-point-2.jpg",
         "image3": ""
     },
     {
@@ -346,8 +346,8 @@
         "views": 3,
         "rate": 3,
         "famous": 1,
-        "image1": "/assets/img/gallery/grace-bay-beach__providenciales/grace-bay-beach.jpg",
-        "image2": "/assets/img/gallery/grace-bay-beach__providenciales/grace-bay-beach-2.jpg",
+        "image1": "assets/img/gallery/grace-bay-beach__providenciales/grace-bay-beach.jpg",
+        "image2": "assets/img/gallery/grace-bay-beach__providenciales/grace-bay-beach-2.jpg",
         "image3": ""
     },
     {
@@ -362,8 +362,8 @@
         "views": 1,
         "rate": 2,
         "famous": 1,
-        "image1": "/assets/img/gallery/grand-anse__grenada/grand-anse-1.jpg",
-        "image2": "/assets/img/gallery/grand-anse__grenada/grand-anse-2.jpg",
+        "image1": "assets/img/gallery/grand-anse__grenada/grand-anse-1.jpg",
+        "image2": "assets/img/gallery/grand-anse__grenada/grand-anse-2.jpg",
         "image3": ""
     },
     {
@@ -378,8 +378,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/haad-rin-beach__thailand/haad-rin-beach-1.jpg",
-        "image2": "/assets/img/gallery/haad-rin-beach__thailand/haad-rin-beach-2.jpg",
+        "image1": "assets/img/gallery/haad-rin-beach__thailand/haad-rin-beach-1.jpg",
+        "image2": "assets/img/gallery/haad-rin-beach__thailand/haad-rin-beach-2.jpg",
         "image3": ""
     },
     {
@@ -394,8 +394,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/hanalei-bay__usa/hanalei-bay-1.jpg",
-        "image2": "/assets/img/gallery/hanalei-bay__usa/hanalei-bay-2.jpg",
+        "image1": "assets/img/gallery/hanalei-bay__usa/hanalei-bay-1.jpg",
+        "image2": "assets/img/gallery/hanalei-bay__usa/hanalei-bay-2.jpg",
         "image3": ""
     },
     {
@@ -410,8 +410,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/hidden-beach__philippines/hidden-beach-1.jpg",
-        "image2": "/assets/img/gallery/hidden-beach__philippines/hidden-beach-2.jpg",
+        "image1": "assets/img/gallery/hidden-beach__philippines/hidden-beach-1.jpg",
+        "image2": "assets/img/gallery/hidden-beach__philippines/hidden-beach-2.jpg",
         "image3": ""
     },
     {
@@ -426,8 +426,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/honopu-beach-kauai__usa/honopu-beach-1.jpg",
-        "image2": "/assets/img/gallery/honopu-beach-kauai__usa/honopu-beach-2.jpg",
+        "image1": "assets/img/gallery/honopu-beach-kauai__usa/honopu-beach-1.jpg",
+        "image2": "assets/img/gallery/honopu-beach-kauai__usa/honopu-beach-2.jpg",
         "image3": ""
     },
     {
@@ -442,8 +442,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/ile-aux-cerfs__mauritius/ile-aux-cerfs-1.jpg",
-        "image2": "/assets/img/gallery/ile-aux-cerfs__mauritius/ile-aux-cerfs-2.jpg",
+        "image1": "assets/img/gallery/ile-aux-cerfs__mauritius/ile-aux-cerfs-1.jpg",
+        "image2": "assets/img/gallery/ile-aux-cerfs__mauritius/ile-aux-cerfs-2.jpg",
         "image3": ""
     },
     {
@@ -458,8 +458,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/turquoise-bay__australia/turquoise-beach-1.jpg",
-        "image2": "/assets/img/gallery/turquoise-bay__australia/turquoise-beach-2.jpg",
+        "image1": "assets/img/gallery/turquoise-bay__australia/turquoise-beach-1.jpg",
+        "image2": "assets/img/gallery/turquoise-bay__australia/turquoise-beach-2.jpg",
         "image3": ""
     },
     {
@@ -474,8 +474,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/keem-bay__ireland/keem-bay-1.jpg",
-        "image2": "/assets/img/gallery/keem-bay__ireland/keem-bay-2.jpg",
+        "image1": "assets/img/gallery/keem-bay__ireland/keem-bay-1.jpg",
+        "image2": "assets/img/gallery/keem-bay__ireland/keem-bay-2.jpg",
         "image3": ""
     },
     {
@@ -490,8 +490,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/la-jolla__usa/la-jolla-1.jpg",
-        "image2": "/assets/img/gallery/la-jolla__usa/la-jolla-2.jpg",
+        "image1": "assets/img/gallery/la-jolla__usa/la-jolla-1.jpg",
+        "image2": "assets/img/gallery/la-jolla__usa/la-jolla-2.jpg",
         "image3": ""
     },
     {
@@ -506,8 +506,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/la-pelosa-beach__italy/la-pelosa-beach-1.jpg",
-        "image2": "/assets/img/gallery/la-pelosa-beach__italy/la-pelosa-beach-2.jpg",
+        "image1": "assets/img/gallery/la-pelosa-beach__italy/la-pelosa-beach-1.jpg",
+        "image2": "assets/img/gallery/la-pelosa-beach__italy/la-pelosa-beach-2.jpg",
         "image3": ""
     },
     {
@@ -522,8 +522,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/le-morne-brabant__mauritius/le-morne-1.jpg",
-        "image2": "/assets/img/gallery/le-morne-brabant__mauritius/le-morne-2.jpg",
+        "image1": "assets/img/gallery/le-morne-brabant__mauritius/le-morne-1.jpg",
+        "image2": "assets/img/gallery/le-morne-brabant__mauritius/le-morne-2.jpg",
         "image3": ""
     },
     {
@@ -538,8 +538,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/luskentyre__scotland/luskentyre-1.jpg",
-        "image2": "/assets/img/gallery/luskentyre__scotland/luskentyre-2.jpg",
+        "image1": "assets/img/gallery/luskentyre__scotland/luskentyre-1.jpg",
+        "image2": "assets/img/gallery/luskentyre__scotland/luskentyre-2.jpg",
         "image3": ""
     },
     {
@@ -554,8 +554,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/marathonisi__greece/morathonisi-1.jpg",
-        "image2": "/assets/img/gallery/marathonisi__greece/morathonisi-2.jpg",
+        "image1": "assets/img/gallery/marathonisi__greece/morathonisi-1.jpg",
+        "image2": "assets/img/gallery/marathonisi__greece/morathonisi-2.jpg",
         "image3": ""
     },
     {
@@ -570,8 +570,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/matira-beach__french-polynesia/matria-beach-1.jpg",
-        "image2": "/assets/img/gallery/matira-beach__french-polynesia/matria-beach-2.jpg",
+        "image1": "assets/img/gallery/matira-beach__french-polynesia/matria-beach-1.jpg",
+        "image2": "assets/img/gallery/matira-beach__french-polynesia/matria-beach-2.jpg",
         "image3": ""
     },
     {
@@ -586,8 +586,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/maui__usa/maui-1.jpg",
-        "image2": "/assets/img/gallery/maui__usa/maui-2.jpg",
+        "image1": "assets/img/gallery/maui__usa/maui-1.jpg",
+        "image2": "assets/img/gallery/maui__usa/maui-2.jpg",
         "image3": ""
     },
     {
@@ -602,8 +602,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/miami-beach__usa/miami-beach-1.jpg",
-        "image2": "/assets/img/gallery/miami-beach__usa/miami-beach-2.jpg",
+        "image1": "assets/img/gallery/miami-beach__usa/miami-beach-1.jpg",
+        "image2": "assets/img/gallery/miami-beach__usa/miami-beach-2.jpg",
         "image3": ""
     },
     {
@@ -618,8 +618,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/nungwi-beach__tanzania/nungwi-beach-1.jpg",
-        "image2": "/assets/img/gallery/nungwi-beach__tanzania/nungwi-beach-2.jpg",
+        "image1": "assets/img/gallery/nungwi-beach__tanzania/nungwi-beach-1.jpg",
+        "image2": "assets/img/gallery/nungwi-beach__tanzania/nungwi-beach-2.jpg",
         "image3": ""
     },
     {
@@ -634,8 +634,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/ocracoke-lifeguarded-beach__north-carolina/ocracoke-lifeguarded-beach-1.jpg",
-        "image2": "/assets/img/gallery/ocracoke-lifeguarded-beach__north-carolina/ocracoke-lifeguarded-beach-2.jpg",
+        "image1": "assets/img/gallery/ocracoke-lifeguarded-beach__north-carolina/ocracoke-lifeguarded-beach-1.jpg",
+        "image2": "assets/img/gallery/ocracoke-lifeguarded-beach__north-carolina/ocracoke-lifeguarded-beach-2.jpg",
         "image-3": ""
     },
     {
@@ -650,8 +650,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/ora-beach__indonesia/ora-beach-1.jpg",
-        "image2": "/assets/img/gallery/ora-beach__indonesia/ora-beach-2.jpg",
+        "image1": "assets/img/gallery/ora-beach__indonesia/ora-beach-1.jpg",
+        "image2": "assets/img/gallery/ora-beach__indonesia/ora-beach-2.jpg",
         "image3": ""
     },
     {
@@ -666,8 +666,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/petite-anse__seychelles/patite-anse.jpg",
-        "image2": "/assets/img/gallery/petite-anse__seychelles/patite-anse-2.webp",
+        "image1": "assets/img/gallery/petite-anse__seychelles/patite-anse.jpg",
+        "image2": "assets/img/gallery/petite-anse__seychelles/patite-anse-2.webp",
         "image3": ""
     },
     {
@@ -682,8 +682,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/pink-sand-beach__barbuda/pink-sand-beach-1.jpg",
-        "image2": "/assets/img/gallery/pink-sand-beach__barbuda/pink-sand-beach-2.jpg",
+        "image1": "assets/img/gallery/pink-sand-beach__barbuda/pink-sand-beach-1.jpg",
+        "image2": "assets/img/gallery/pink-sand-beach__barbuda/pink-sand-beach-2.jpg",
         "image3": ""
     },
     {
@@ -698,8 +698,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/playa-de-ses-illetes__balearic-island/playa-de-ses-illetes.jpg",
-        "image2": "/assets/img/gallery/playa-de-ses-illetes__balearic-island/playa-de-ses-illetes-2.webp",
+        "image1": "assets/img/gallery/playa-de-ses-illetes__balearic-island/playa-de-ses-illetes.jpg",
+        "image2": "assets/img/gallery/playa-de-ses-illetes__balearic-island/playa-de-ses-illetes-2.webp",
         "image3": ""
     },
     {
@@ -714,8 +714,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/playa-parasio-beach__cuba/playa-parasio-cayo-largo-del-sur-1.jpg",
-        "image2": "/assets/img/gallery/playa-parasio-beach__cuba/playa-parasio-cayo-largo-del-sur-2.jpg",
+        "image1": "assets/img/gallery/playa-parasio-beach__cuba/playa-parasio-cayo-largo-del-sur-1.jpg",
+        "image2": "assets/img/gallery/playa-parasio-beach__cuba/playa-parasio-cayo-largo-del-sur-2.jpg",
         "image3": ""
     },
     {
@@ -730,8 +730,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/polihale-beach__usa/polihale-beach-1.jpg",
-        "image2": "/assets/img/gallery/polihale-beach__usa/polihale-beach-2.jpg",
+        "image1": "assets/img/gallery/polihale-beach__usa/polihale-beach-1.jpg",
+        "image2": "assets/img/gallery/polihale-beach__usa/polihale-beach-2.jpg",
         "image3": ""
     },
     {
@@ -746,8 +746,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/praia-de-marinha__portugal/praia-de-marinha-1.jfif",
-        "image2": "/assets/img/gallery/praia-de-marinha__portugal/praia-de-marinha-2.jfif",
+        "image1": "assets/img/gallery/praia-de-marinha__portugal/praia-de-marinha-1.jfif",
+        "image2": "assets/img/gallery/praia-de-marinha__portugal/praia-de-marinha-2.jfif",
         "image3": ""
     },
     {
@@ -762,8 +762,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/praia-de-santa-monica__cape-varde/praia-de-santa-monica.jpg",
-        "image2": "/assets/img/gallery/praia-de-santa-monica__cape-varde/praia-de-santa-monica-2.jpg",
+        "image1": "assets/img/gallery/praia-de-santa-monica__cape-varde/praia-de-santa-monica.jpg",
+        "image2": "assets/img/gallery/praia-de-santa-monica__cape-varde/praia-de-santa-monica-2.jpg",
         "image3": ""
     },
     {
@@ -778,8 +778,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/puerto-vallarta__mexico/puerto-vallarta-1.jpg",
-        "image2": "/assets/img/gallery/puerto-vallarta__mexico/puerto-vallarta-2.jpg",
+        "image1": "assets/img/gallery/puerto-vallarta__mexico/puerto-vallarta-1.jpg",
+        "image2": "assets/img/gallery/puerto-vallarta__mexico/puerto-vallarta-2.jpg",
         "image3": ""
     },
     {
@@ -793,8 +793,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/phuket__thailand/phuket.jpg",
-        "image2": "/assets/img/gallery/phuket__thailand/phuket-2.jpg",
+        "image1": "assets/img/gallery/phuket__thailand/phuket.jpg",
+        "image2": "assets/img/gallery/phuket__thailand/phuket-2.jpg",
         "image3": ""
     },
     {
@@ -809,8 +809,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/radhanagar-beach__india/radhanagar-beach.jfif",
-        "image2": "/assets/img/gallery/radhanagar-beach__india/radhanagar-beach-2.jfif",
+        "image1": "assets/img/gallery/radhanagar-beach__india/radhanagar-beach.jfif",
+        "image2": "assets/img/gallery/radhanagar-beach__india/radhanagar-beach-2.jfif",
         "image3": ""
     },
     {
@@ -825,8 +825,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/railay-west__thailand/railay-west-1.jpg",
-        "image2": "/assets/img/gallery/railay-west__thailand/railay-west-2.jpg",
+        "image1": "assets/img/gallery/railay-west__thailand/railay-west-1.jpg",
+        "image2": "assets/img/gallery/railay-west__thailand/railay-west-2.jpg",
         "image3": ""
     },
     {
@@ -841,8 +841,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/reethi-rah__maldives/reethi-rah-1.jpg",
-        "image2": "/assets/img/gallery/reethi-rah__maldives/reethi-rah-2.jpg",
+        "image1": "assets/img/gallery/reethi-rah__maldives/reethi-rah-1.jpg",
+        "image2": "assets/img/gallery/reethi-rah__maldives/reethi-rah-2.jpg",
         "image3": ""
     },
     {
@@ -857,8 +857,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/sapodilla__america/belize-1.jpg",
-        "image2": "/assets/img/gallery/sapodilla__america/belize-2.jpg",
+        "image1": "assets/img/gallery/sapodilla__america/belize-1.jpg",
+        "image2": "assets/img/gallery/sapodilla__america/belize-2.jpg",
         "image3": ""
     },
     {
@@ -873,8 +873,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/saud-beach__philippines/saud-beach-1.jpg",
-        "image2": "/assets/img/gallery/saud-beach__philippines/saud-beach-2.jpg",
+        "image1": "assets/img/gallery/saud-beach__philippines/saud-beach-1.jpg",
+        "image2": "assets/img/gallery/saud-beach__philippines/saud-beach-2.jpg",
         "image3": ""
     },
     {
@@ -889,8 +889,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/scala-dei-turchi__sicily/scala-dei-turchi.jpg",
-        "image2": "/assets/img/gallery/scala-dei-turchi__sicily/scala-dei-turchi-2.jpg",
+        "image1": "assets/img/gallery/scala-dei-turchi__sicily/scala-dei-turchi.jpg",
+        "image2": "assets/img/gallery/scala-dei-turchi__sicily/scala-dei-turchi-2.jpg",
         "image3": ""
     },
     {
@@ -905,8 +905,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/seven-mile-beach__cayman-islands/seven-mile-beach-1.jpg",
-        "image2": "/assets/img/gallery/seven-mile-beach__cayman-islands/seven-mile-beach-2.jpg",
+        "image1": "assets/img/gallery/seven-mile-beach__cayman-islands/seven-mile-beach-1.jpg",
+        "image2": "assets/img/gallery/seven-mile-beach__cayman-islands/seven-mile-beach-2.jpg",
         "image3": ""
     },
     {
@@ -921,8 +921,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/sotavento__fuerteventura/sotavento.jpg",
-        "image2": "/assets/img/gallery/sotavento__fuerteventura/sotavento-2.jpg",
+        "image1": "assets/img/gallery/sotavento__fuerteventura/sotavento.jpg",
+        "image2": "assets/img/gallery/sotavento__fuerteventura/sotavento-2.jpg",
         "image3": ""
     },
     {
@@ -937,8 +937,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/st.lucia__caribbean/st.lucia-1.jpg",
-        "image2": "/assets/img/gallery/st.lucia__caribbean/st.lucia-2.jpg",
+        "image1": "assets/img/gallery/st.lucia__caribbean/st.lucia-1.jpg",
+        "image2": "assets/img/gallery/st.lucia__caribbean/st.lucia-2.jpg",
         "image3": ""
     },
     {
@@ -953,8 +953,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/tahiti__australia/tahiti.jpg",
-        "image2": "/assets/img/gallery/tahiti__australia/tahiti-2.webp",
+        "image1": "assets/img/gallery/tahiti__australia/tahiti.jpg",
+        "image2": "assets/img/gallery/tahiti__australia/tahiti-2.webp",
         "image3": ""
     },
     {
@@ -969,8 +969,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/tortuga-bay__galapagos/tortuga-bay-santa-cruz-island.jpg",
-        "image2": "/assets/img/gallery/tortuga-bay__galapagos/tortuga-bay-santa-cruz-island-2.jpg",
+        "image1": "assets/img/gallery/tortuga-bay__galapagos/tortuga-bay-santa-cruz-island.jpg",
+        "image2": "assets/img/gallery/tortuga-bay__galapagos/tortuga-bay-santa-cruz-island-2.jpg",
         "image3": ""
     },
     {
@@ -985,8 +985,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/tulum__mexico/tulum-1.jpg",
-        "image2": "/assets/img/gallery/tulum__mexico/tulum-2.jpg",
+        "image1": "assets/img/gallery/tulum__mexico/tulum-1.jpg",
+        "image2": "assets/img/gallery/tulum__mexico/tulum-2.jpg",
         "image3": ""
     },
     {
@@ -1001,8 +1001,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/u.s-virgin-islands__caribbean//u.s-virgin-islands-1.jpg",
-        "image2": "/assets/img/gallery/u.s-virgin-islands__caribbean//u.s-virgin-islands-2.jpg",
+        "image1": "assets/img/gallery/u.s-virgin-islands__caribbean//u.s-virgin-islands-1.jpg",
+        "image2": "assets/img/gallery/u.s-virgin-islands__caribbean//u.s-virgin-islands-2.jpg",
         "image3": ""
     },
     {
@@ -1017,8 +1017,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/uig-sands__scotland/uig-sands-1.jpg",
-        "image2": "/assets/img/gallery/uig-sands__scotland/uig-sands-2.jpg",
+        "image1": "assets/img/gallery/uig-sands__scotland/uig-sands-1.jpg",
+        "image2": "assets/img/gallery/uig-sands__scotland/uig-sands-2.jpg",
         "image3": ""
     },
     {
@@ -1033,8 +1033,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/whitehaven-beach__australia/whitehaven-beach-1.jpg",
-        "image2": "/assets/img/gallery/whitehaven-beach__australia/whitehaven-beach-2.jpg",
+        "image1": "assets/img/gallery/whitehaven-beach__australia/whitehaven-beach-1.jpg",
+        "image2": "assets/img/gallery/whitehaven-beach__australia/whitehaven-beach-2.jpg",
         "image3": ""
     },
     {
@@ -1049,9 +1049,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 67,
@@ -1065,9 +1065,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 68,
@@ -1081,9 +1081,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 69,
@@ -1097,9 +1097,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 70,
@@ -1113,9 +1113,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 71,
@@ -1129,9 +1129,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 72,
@@ -1145,9 +1145,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 73,
@@ -1161,9 +1161,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 74,
@@ -1177,9 +1177,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 75,
@@ -1193,9 +1193,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 76,
@@ -1209,9 +1209,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 77,
@@ -1225,9 +1225,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 78,
@@ -1241,9 +1241,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 79,
@@ -1257,9 +1257,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 80,
@@ -1273,9 +1273,9 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     },
     {
         "id": 81,
@@ -1289,8 +1289,8 @@
         "views": 1,
         "rate": 1,
         "famous": 1,
-        "image1": "/assets/img/gallery/",
-        "image2": "/assets/img/gallery/",
-        "image3": "/assets/img/gallery/"
+        "image1": "assets/img/gallery/",
+        "image2": "assets/img/gallery/",
+        "image3": "assets/img/gallery/"
     }
 ]
