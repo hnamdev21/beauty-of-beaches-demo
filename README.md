@@ -1,4 +1,6 @@
-Beauty of beaches eProject-2022 Batch no: T1.2210.A1
+Beauty of beaches
+
+eProject-2022 Batch no: T1.2210.A1
 
 Project title: Beauty of beaches
 
@@ -6,12 +8,18 @@ Project title: Beauty of beaches
 
 4 collaborators:
 
-Student1397174 Trần Hoàng Nam Student1396931 Trần Thế Hùng Student1396934 Võ
-Nguyễn Hồng Phi Student1396507 Nguyễn Ngọc Trường Sơn
+Student1397174 Trần Hoàng Nam
+
+Student1396931 Trần Thế Hùng
+
+Student1396934 Võ Nguyễn Hồng Phi
+
+Student1396507 Nguyễn Ngọc Trường Sơn
 
 ============================
 
-eProject documentation at https://github.com/hnamdev21/beauty-of-beaches-demo
+eProject documentation at
+https://github.com/hnamdev21/beauty-of-beaches-demo/blob/main/README.md
 
 ============================
 
