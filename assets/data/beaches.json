@@ -785,7 +785,8 @@
     {
         "id": 50,
         "name": "Phuket",
-        "location": "Phuket's reputation as Thailand's premier leisure playground is well founded. Distinguished by lush, jungle-clad mountains, gorgeous beaches and turquoise waters, the island's geographical wonders are backdrops to a world-famous pleasure zone.",
+        "location": "Thailand",
+        "description": "Phuket's reputation as Thailand's premier leisure playground is well founded. Distinguished by lush, jungle-clad mountains, gorgeous beaches and turquoise waters, the island's geographical wonders are backdrops to a world-famous pleasure zone.",
         "description2": "Most holidaymakers head to the west coast for the photogenic and super-popular beaches of Patong, Surin, Kamala, Kata and Karong. Further north is Bang Tao beach, the stunning setting for the Laguna Phuket complex. This cluster of resorts, restaurants and leisure attractions is ideal for families and travellers who like everything at their fingertips. For a more laid-back destination with an authentic local vibe, venture south to Cape Panwa.",
         "description3": "Old Phuket Town, with its beautiful heritage architecture, vibrant Thai-Chinese-Indian-Malay population and flourishing dining scene, is a pleasant cultural diversion from the sand and sea. And of course, no trip to Phuket is complete without an excursion to the spectacular Phang Nga Bay, with dramatic limestone outcrops and aquamarine waters that will send your Instagram followers into a frenzy.",
         "continents": "Asian",
