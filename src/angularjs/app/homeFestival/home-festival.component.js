@@ -11,9 +11,9 @@ angular.module("homeFestival")
                 pushFes(2, $scope.festivals)
             })
 
-            function pushFes(num) {
+            function pushFes(num, festivals) {
                 for(let i = 0; i < num; i++) {
-                    $scope.homeFes.push($scope.festivals[i])
+                    $scope.homeFes.push(festivals[i])
                 }
             }
         }
