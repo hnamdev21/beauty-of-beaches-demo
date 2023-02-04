@@ -2,7 +2,7 @@
 
 angular.module("festivals")
     .factory("Festivals", function($resource) {
-        const url = "/assets/data/festivals.json"
+        const url = "assets/data/festivals.json"
 
         return $resource(url, {}, {
             query: {
