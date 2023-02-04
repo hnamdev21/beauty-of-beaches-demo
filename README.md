@@ -8,13 +8,13 @@ Project title: Beauty of beaches
 
 4 collaborators:
 
-Student1397174 Trần Hoàng Nam
+Student1424185 Trần Hoàng Nam
 
-Student1396931 Trần Thế Hùng
+Student1424180 Trần Thế Hùng
 
-Student1396934 Võ Nguyễn Hồng Phi
+Student1424289 Võ Nguyễn Hồng Phi
 
-Student1396507 Nguyễn Ngọc Trường Sơn
+Student1424171 Nguyễn Ngọc Trường Sơn
 
 ============================
 
