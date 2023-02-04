@@ -119,6 +119,4 @@ window.addEventListener("load", () => {
             })
         }
     })
-
-    console.log("2222")
 })
