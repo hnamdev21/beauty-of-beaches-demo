@@ -89,6 +89,6 @@ angular.module("galleryPage")
                 })
             }
 
-            addActive()
+            window.addEventListener("popstate", addActive)
         }
     })
