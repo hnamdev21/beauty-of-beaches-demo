@@ -21,14 +21,13 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/animation.css">
         
-        <script src="src/javaScript/main.js"></script>
         <script src="src/javaScript/logic/check-location-website.js"></script>
         <!-- <script src="src/javaScript/animation/home-click-favorite.js"></script> -->
         <!-- <script src="src/javaScript/animation/gallery-click-favorite.js"></script> -->
         <script src="src/javaScript/animation/handle-slider.js"></script>
         <script src="src/javaScript/animation/handle-nav-link.js"></script>
         <script src="src/javaScript/animation/handle-header.js"></script>
-        <script src="src/javaScript/animation/handle-click-favorite.js"></script>
+        <!-- <script src="src/javaScript/animation/handle-click-favorite.js"></script> -->
         <script src="src/javaScript/animation/handle-scroll-list.js"></script>
         
         
@@ -78,7 +77,35 @@
     </head>
 
     <body ng-app="app">
-        <header-page></header-page>
+        <header>
+            <div class="inner">
+                <div class="wrapper-logo pos-center-y">
+                    <a href="/beauty-of-beaches-demo">
+                        <img src="assets/img/logo/logo_beachourSVG-white.svg" alt="Logo Beachour" class="logo">
+                    </a>
+                </div>
+        
+                <nav class="wrapper-nav pos-center-y flex-center">
+                    <li><a href="/" class="nav-link" id="home">Home</a></li>
+                    <li><a href="/gallery" class="nav-link" id="gallery">Gallery</a></li>
+                    <li><a href="/festivals" class="nav-link" id="festivals">Festival</a></li>
+                    <li><a href="/contact" class="nav-link" id="contact">Contact</a></li>
+                    <li><a href="/about" class="nav-link" id="about">About</a></li>
+                </nav>
+        
+                <div class="wrapper-other-opt pos-center-y flex-center">
+                    <div class="other-opt__favorite pos-relative">
+                        <i class="heart-icon fa-regular fa-heart"></i>
+                        <div class="circle wrapper-num-favorite">
+                            <span class="num-favorite pos-center">0</span>
+                        </div>
+                    </div>
+        
+                    <div class="favorite-beaches">
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <main>
             <section class="wrapper sliders-section">
@@ -90,5 +117,8 @@
         </main>
         
         <footer-page></footer-page>
+
+        <script src="src/javaScript/main.js"></script>
+
     </body>
 </html>
