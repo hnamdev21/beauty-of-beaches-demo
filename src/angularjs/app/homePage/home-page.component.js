@@ -1,9 +1,6 @@
-'use strict'
+"use strict";
 
-angular.module("homePage")
-    .component("homePage", {
-        templateUrl: "src/angularjs/templates/home.html",
-        controller: function($scope) {
-
-        }
-    })
+angular.module("homePage").component("homePage", {
+  templateUrl: "src/angularjs/templates/home.html",
+  controller: function ($scope) {},
+});

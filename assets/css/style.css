@@ -1016,3 +1016,205 @@ footer {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
 }
+
+/* Contact page */
+.form-feedback-section {
+  padding-top: 40px;
+  height: 600px;
+}
+
+.form-feedback-section h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.form-feedback-section form {
+  height: 400px;
+}
+
+.form-feedback-section .w-input {
+  position: relative;
+  width: 350px;
+  height: 35px;
+  padding: 10px 0;
+  margin: 40px auto 0;
+}
+
+.form-feedback-section .w-input label {
+  z-index: 2;
+  font-size: 18px;
+  left: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-feedback-section textarea,
+.form-feedback-section .fn-input,
+.form-feedback-section .email-input {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.form-feedback-section input:valid ~ label,
+.form-feedback-section input:focus ~ label {
+  top: -10px;
+  left: 0;
+  font-size: 16px;
+}
+
+.form-feedback-section textarea {
+  height: 200px;
+  padding: 10px;
+}
+
+.form-feedback-section textarea ~ label {
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+}
+
+.form-feedback-section textarea:valid ~ label,
+.form-feedback-section textarea:focus ~ label {
+  top: -15px;
+  left: 0;
+  font-size: 16px;
+}
+
+.form-feedback-section button {
+  bottom: 0;
+  padding: 6px 20px;
+  background-color: var(--light-blue);
+  box-shadow: 0 8px 2px 0 var(--darkest-blue);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.form-feedback-section button:hover {
+  background-color: var(--mder-blue);
+}
+
+.form-feedback-section button:active {
+  transform: translateY(8px);
+}
+
+.form-feedback-section .rating {
+  width: max-content;
+  position: absolute;
+  bottom: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.form-feedback-section .star {
+  position: relative;
+  transition: all 0.5s;
+  margin: 0 20px;
+}
+
+.form-feedback-section .star::before {
+  content: "\f005";
+  font-family: fontAwesome;
+  font-size: 30px;
+  color: var(--darkest-blue);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.form-feedback-section .star:hover::before,
+.form-feedback-section .star:hover ~ .star::before {
+  color: var(--md-blue);
+}
+
+/* About page */
+.members-section {
+  height: 500px;
+  padding-top: 40px;
+}
+
+.members-section .title--l {
+  font-weight: 500;
+  text-align: center;
+}
+
+.members-section .grid-12 {
+  margin-top: 20px;
+  height: 360px;
+  grid-template-rows: 50px 1fr 1fr 50px;
+}
+
+.members-section .member-card {
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.members-section .member-card:nth-child(1) {
+  grid-column: 6/8;
+  grid-row: 1/4;
+}
+
+.members-section .member-card:nth-child(2) {
+  grid-column: 3/5;
+  grid-row: 2/5;
+}
+
+.members-section .member-card:nth-child(3) {
+  grid-column: 9/11;
+  grid-row: 2/5;
+}
+
+.members-section .card__top {
+  height: 40%;
+  width: 100%;
+}
+
+.members-section .card__bot {
+  padding: 0 10px;
+}
+
+.members-section .member__img {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+}
+
+.members-section .member__name {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.members-section .member__pos {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+.members-section .member__social {
+  padding: 10px 0;
+}
+
+.members-section .member__social li {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+}
+
+.members-section .member__social a {
+  font-size: 18px;
+}
+
+.members-section .member__task li {
+  font-size: 14px;
+}

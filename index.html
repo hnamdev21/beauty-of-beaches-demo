@@ -21,16 +21,11 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/animation.css">
         
-        <script src="src/javaScript/logic/check-location-website.js"></script>
-        <!-- <script src="src/javaScript/animation/home-click-favorite.js"></script> -->
-        <!-- <script src="src/javaScript/animation/gallery-click-favorite.js"></script> -->
         <script src="src/javaScript/animation/handle-slider.js"></script>
         <script src="src/javaScript/animation/handle-nav-link.js"></script>
         <script src="src/javaScript/animation/handle-header.js"></script>
-        <!-- <script src="src/javaScript/animation/handle-click-favorite.js"></script> -->
         <script src="src/javaScript/animation/handle-scroll-list.js"></script>
-        
-        
+                
         <script src="src/angularjs/angular.min.js"></script>
         <script src="src/angularjs/angular-route.js"></script>
         <script src="src/angularjs/angular-resource.js"></script>
@@ -74,13 +69,17 @@
         <script src="src/angularjs/app/beacheDetail/beach-detail.component.js"></script>
         <script src="src/angularjs/app/festivalPage/festivalPage.module.js"></script>
         <script src="src/angularjs/app/festivalPage/festivalpage.component.js"></script>
+        <script src="src/angularjs/app/contactPage/contact-page.module.js"></script>
+        <script src="src/angularjs/app/contactPage/contact-page.component.js"></script>
+        <script src="src/angularjs/app/aboutPage/about-page.module.js"></script>
+        <script src="src/angularjs/app/aboutPage/about-page.component.js"></script>
     </head>
 
     <body ng-app="app">
         <header>
             <div class="inner">
                 <div class="wrapper-logo pos-center-y">
-                    <a href="/beauty-of-beaches-demo">
+                    <a href="/beauty-of-beaches-demo/" id="logo-link">
                         <img src="assets/img/logo/logo_beachourSVG-white.svg" alt="Logo Beachour" class="logo">
                     </a>
                 </div>
@@ -114,11 +113,11 @@
             </section>
 
             <div ng-view></div>
+            
         </main>
         
         <footer-page></footer-page>
 
         <script src="src/javaScript/main.js"></script>
-
     </body>
 </html>

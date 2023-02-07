@@ -7,7 +7,7 @@ angular.module("app").config(function ($routeProvider, $locationProvider) {
   });
 
   $routeProvider
-    .when("/", {
+    .when("/beauty-of-beaches-demo/", {
       template: "<home-page></home-page>",
     })
     .when("/beauty-of-beaches-demo/contact", {

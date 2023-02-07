@@ -1,17 +1,19 @@
-'use strict'
+"use strict";
 
 angular.module("app", [
-    // External
-    "ngRoute",
-    "ngResource",
+  // External
+  "ngRoute",
+  "ngResource",
 
-    // Internal
-    "checkContinents",
-    "go",
-    "headerPage",
-    "footerPage",
-    "homePage",
-    "galleryPage",
-    "beachDetail",
-    "festivalPage"
-])
+  // Internal
+  "checkContinents",
+  "go",
+  "headerPage",
+  "footerPage",
+  "homePage",
+  "galleryPage",
+  "beachDetail",
+  "festivalPage",
+  "contactPage",
+  "aboutPage",
+]);
