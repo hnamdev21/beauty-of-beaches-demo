@@ -7,5 +7,5 @@ angular.module("festivalPage")
             Festivals.query(function(data) {
                 $scope.festivals = data
             })
-        }
+        } 
     })
