@@ -10,19 +10,19 @@ angular.module("app").config(function ($routeProvider, $locationProvider) {
     .when("/", {
       template: "<home-page></home-page>",
     })
-    .when("/beauty-of-beaches-demo/contact", {
+    .when("/contact", {
       template: "<contact-page></contact-page>",
     })
-    .when("/beauty-of-beaches-demo/about", {
+    .when("/about", {
       template: "<about-page></about-page>",
     })
-    .when("/beauty-of-beaches-demo/gallery", {
+    .when("/gallery", {
       template: "<gallery-page></gallery-page>",
     })
-    .when("/beauty-of-beaches-demo/gallery/beach/:id", {
+    .when("/gallery/beach/:id", {
       template: "<beach-detail></beach-detail>",
     })
-    .when("/beauty-of-beaches-demo/festivals", {
+    .when("/festivals", {
       template: "<festival-page></festival-page>",
     });
 });
