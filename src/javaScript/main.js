@@ -198,6 +198,16 @@ const app = {
               ".favorite-beach__name"
             ).innerText;
             const cards = [...document.querySelectorAll(".card")];
+            const galleryCards = [...document.querySelectorAll(".beach-card")];
+
+            galleryCards.map((card) => {
+              const nameCard = card.querySelector(".beach__name").innerText;
+              const heartIcon = card.querySelector(".heart-icon");
+
+              if (nameCard == nameFavoriteBeach) {
+                heartIcon.classList = "heart-icon fa-regular fa-heart";
+              }
+            });
 
             cards.map((card) => {
               const nameCard = card.querySelector(".beach__name").innerText;
@@ -312,6 +322,16 @@ const app = {
               ".favorite-beach__name"
             ).innerText;
             const cards = [...document.querySelectorAll(".beach-card")];
+            const homeCards = [...document.querySelectorAll(".card")];
+
+            homeCards.map((card) => {
+              const nameCard = card.querySelector(".beach__name").innerText;
+              const heartIcon = card.querySelector(".heart-icon");
+
+              if (nameCard == nameFavoriteBeach) {
+                heartIcon.classList = "heart-icon fa-regular fa-heart";
+              }
+            });
 
             cards.map((card) => {
               const nameCard = card.querySelector(".beach__name").innerText;
