@@ -147,31 +147,6 @@ header .wrapper-other-opt {
 }
 
 /* Main */
-/* .top-10-famous {
-  background: linear-gradient(to bottom, var(--ocean), #015871e6);
-}
-
-.feedback-section {
-  background: linear-gradient(to bottom, #015871e6, #015871cc);
-}
-
-.festival-section {
-  background: linear-gradient(to bottom, #015871cc, #015871b3);
-}
-
-.traffic-section {
-  background: linear-gradient(to bottom, #015871b3, #01587199);
-  margin-top: 0;
-  padding-top: 50px;
-}
-
-.list-section.top-10-visited {
-  background: linear-gradient(to bottom, #01587199, #01587180);
-  margin-top: 0;
-  padding-top: 50px;
-  height: 500px;
-} */
-
 /* Slider section*/
 .sliders-section {
   height: 500px;
@@ -533,6 +508,7 @@ header .wrapper-other-opt {
   border-radius: 20px;
   background-color: #fff;
   box-shadow: var(--festival-shadow);
+  overflow: hidden;
 }
 
 .festival__img {
