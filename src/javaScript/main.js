@@ -2,17 +2,10 @@ const app = {
   init() {
     const homeLink = document.getElementById("home");
     const galleryLink = document.getElementById("gallery");
+    const contactLink = document.getElementById("contact")
     const logo = document.getElementById("logo-link");
 
     //Wait render component
-    setTimeout(() => {
-      const viewBeachesBtn = document.getElementById("view-beaches-btn");
-
-      viewBeachesBtn.addEventListener("click", (event) => {
-        addEvent("gallery");
-      });
-    }, 500);
-
     homeLink.addEventListener("click", (event) => {
       addEvent("home");
     });
@@ -24,11 +17,21 @@ const app = {
       addEvent("gallery");
     });
 
+    contactLink.addEventListener("click", (event) => {
+      addEvent("contact");
+    })
+
     function addEvent(page) {
       if (page == "home") {
         setTimeout(() => {
           app.addListenerHomePage();
           app.fillIconHomePage();
+
+          const viewBeachesBtn = document.getElementById("view-beaches-btn");
+
+          viewBeachesBtn.addEventListener("click", (event) => {
+            addEvent("gallery");
+          });
         }, 500);
 
         return;
@@ -41,6 +44,12 @@ const app = {
         }, 500);
 
         return;
+      }
+
+      if (page == "contact") {
+        setTimeout(() => {
+          app.addListenerContactPage();
+        }, 500);
       }
     }
   },
@@ -423,4 +432,3 @@ const app = {
 
 document.addEventListener("DOMContentLoaded", app.init);
 window.addEventListener("load", app.addListenerHomePage);
-app.addListenerContactPage()
