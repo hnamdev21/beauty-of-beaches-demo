@@ -1,4 +1,50 @@
 const app = {
+  init() {
+    const homeLink = document.getElementById("home");
+    const galleryLink = document.getElementById("gallery");
+    const logo = document.getElementById("logo-link");
+
+    //Wait render component
+    setTimeout(() => {
+      const viewBeachesBtn = document.getElementById("view-beaches-btn");
+
+      viewBeachesBtn.addEventListener("click", (event) => {
+        addEvent("gallery");
+      });
+    }, 500);
+
+    homeLink.addEventListener("click", (event) => {
+      addEvent("home");
+    });
+    logo.addEventListener("click", (event) => {
+      addEvent("home");
+    });
+
+    galleryLink.addEventListener("click", (event) => {
+      addEvent("gallery");
+    });
+
+    function addEvent(page) {
+      if (page == "home") {
+        setTimeout(() => {
+          app.addListenerHomePage();
+          app.fillIconHomePage();
+        }, 500);
+
+        return;
+      }
+
+      if (page == "gallery") {
+        setTimeout(() => {
+          app.addListenerGalleryPage();
+          app.fillIconGalleryPage();
+        }, 500);
+
+        return;
+      }
+    }
+  },
+
   checkItemInList(nameCard) {
     let isTrue = true;
     const favoriteItems = [...document.querySelectorAll(".favorite-beach")];
@@ -273,53 +319,108 @@ const app = {
       }
     });
   },
+
+  addListenerContactPage() {
+    const idElements = ["fullName", "email", "feedback"]
+
+    function checkRequire(inputEle, labelEle, spanEle, msg) {
+      if (inputEle.value.trim() == "") {
+        spanEle.innerText = msg;
+        inputEle.classList.add("invalid");
+        labelEle.classList.add("invalid");
+      } else {
+        spanEle.innerText = "";
+        inputEle.classList.remove("invalid");
+        labelEle.classList.remove("invalid");
+      }
+    }
+
+    idElements.forEach(id => {
+      const element = document.getElementById(`${id}`)
+      const parentEle = element.parentElement
+      const spanEle = parentEle.querySelector(".warning-msg")
+      const labelEle = parentEle.querySelector("label")
+      let temp = ""
+      
+      element.addEventListener("blur", event => {
+        const valueInput = event.target.value;
+        let msg = "";
+
+        switch (id) {
+          case "fullName":
+            temp = "full name";
+            break;
+          default:
+            temp = id;
+        }
+        msg = `Please enter your ${temp}`;
+
+        checkRequire(element, labelEle, spanEle, msg)
+      })
+
+      element.addEventListener("keydown", event => {
+        spanEle.innerText = ""
+        element.classList.remove("invalid");
+        labelEle.classList.remove("invalid");
+      })
+    })
+  },
+
+  checkValid(idEle, regexName, regexEmail) {
+    const inputEle = document.getElementById(`${idEle}`)
+    const parentEle = inputEle.parentElement
+    const labelEle = parentEle.querySelector("label")
+    const spanEle = parentEle.querySelector(".warning-msg")
+    let msg = ""
+
+    switch (idEle) {
+      case "fullName":
+        if (!regexName.test(inputEle.value)) {
+          msg = "Invalid name"
+        }
+        return false
+
+        break;
+
+      case "email":
+        if (!regexEmail.test(inputEle.value)) {
+          msg = "Invalid email"
+        }
+        return false
+
+        break;
+
+      default:
+        break;
+    }
+
+    return false
+  },
+
+  submitForm() {
+    console.log(`22222222`)
+    const idElements = ["fullName", "email", "feedback"]
+    const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    const regexName = /^[^\d+]*[\d+]{0}[^\d+]*$/;
+
+    const isValids = idElements.map(id => {
+      app.checkValid(id, regexName, regexEmail);
+    })
+
+    console.log(isValids)
+
+    // return isValid.forEach(checked => {
+    //   if (checked == false) {
+    //     return false;
+    //   }
+
+    //   return true;
+    // })
+
+    return false;
+  },
 };
 
-function init() {
-  const homeLink = document.getElementById("home");
-  const galleryLink = document.getElementById("gallery");
-  const logo = document.getElementById("logo-link");
-
-  //Wait render component
-  setTimeout(() => {
-    const viewBeachesBtn = document.getElementById("view-beaches-btn");
-
-    viewBeachesBtn.addEventListener("click", (event) => {
-      addEvent("gallery");
-    });
-  }, 500);
-
-  homeLink.addEventListener("click", (event) => {
-    addEvent("home");
-  });
-  logo.addEventListener("click", (event) => {
-    addEvent("home");
-  });
-
-  galleryLink.addEventListener("click", (event) => {
-    addEvent("gallery");
-  });
-
-  function addEvent(page) {
-    if (page == "home") {
-      setTimeout(() => {
-        app.addListenerHomePage();
-        app.fillIconHomePage();
-      }, 500);
-
-      return;
-    }
-
-    if (page == "gallery") {
-      setTimeout(() => {
-        app.addListenerGalleryPage();
-        app.fillIconGalleryPage();
-      }, 500);
-
-      return;
-    }
-  }
-}
-
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", app.init);
 window.addEventListener("load", app.addListenerHomePage);
+app.addListenerContactPage()

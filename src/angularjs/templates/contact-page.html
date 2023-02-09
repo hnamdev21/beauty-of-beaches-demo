@@ -1,20 +1,23 @@
 <section class="wrapper form-feedback-section">
     <div class="inner">
         <h1 class="title--l">Please leave your feedback</h1>
-        <form action="">
+        <form action="" onsubmit="return app.submitForm()" name="feedback">
             <div class="w-input">
-                <input type="text" name="" id="" class="fn-input pos-center-y" required>
-                <label for="" class="pos-center-y">Full name</label>
+                <input type="text" name="fullName" id="fullName" class="fn-input pos-center-y" required>
+                <label for="fullName" class="pos-center-y">Full name</label>
+                <span class="warning-msg"></span>
             </div>
 
             <div class="w-input">
-                <input type="text" name="" id="" class="email-input pos-center-y" required>
-                <label for="" class="pos-center-y">Your email</label>
+                <input type="text" name="email" id="email" class="email-input pos-center-y" required>
+                <label for="email" class="pos-center-y">Your email</label>
+                <span class="warning-msg"></span>
             </div>
 
             <div class="w-input">
-                <textarea name="" id="" required></textarea>
-                <label for="">Your feedback</label>
+                <textarea name="feedback" id="feedback" required></textarea>
+                <label for="feedback">Your feedback</label>
+                <span class="warning-msg"></span>
             </div>
 
             <div class="w-input rating pos-center-x">
@@ -25,7 +28,26 @@
                 <input type="radio" name="feeling-rating" class="star">
             </div>
 
-            <button class="send-fb-btn pos-center-x">SEND</button>
+            <button class="send-btn pos-center-x">SEND</button>
         </form>
+
+        <div class="wrapper-bubbles">
+            <div class="inner">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
+        </div>
     </div>
+
+
 </section>
