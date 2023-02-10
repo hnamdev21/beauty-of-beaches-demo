@@ -350,18 +350,21 @@ const app = {
   },
 
   addListenerContactPage() {
-    const idElements = ["fullName", "email", "feedback"]
+    const uploadEle = document.getElementById("imgUser")
+    const wrapperUploadEle = uploadEle.parentElement
+    const idElements = ["fullName", "email", "feedback", "previewImg"]
 
+    // Valid form
     function checkRequire(inputEle, labelEle, spanEle, msg) {
-      if (inputEle.value.trim() == "") {
-        spanEle.innerText = msg;
-        inputEle.classList.add("invalid");
-        labelEle.classList.add("invalid");
-      } else {
-        spanEle.innerText = "";
-        inputEle.classList.remove("invalid");
-        labelEle.classList.remove("invalid");
-      }
+        if (inputEle.value.trim() == "") {
+          spanEle.innerText = msg;
+          inputEle.classList.add("invalid");
+          labelEle.classList.add("invalid");
+        } else {
+          spanEle.innerText = "";
+          inputEle.classList.remove("invalid");
+          labelEle.classList.remove("invalid");
+        }
     }
 
     idElements.forEach(id => {
@@ -379,8 +382,14 @@ const app = {
           case "fullName":
             temp = "full name";
             break;
+
+          case "imgUser":
+            temp = "image";
+            break;
+
           default:
             temp = id;
+            break;
         }
         msg = `Please enter your ${temp}`;
 
@@ -388,26 +397,52 @@ const app = {
       })
 
       element.addEventListener("keyup", event => {
-        const nameUser = event.target.value;
-        const words = nameUser.split(" ")
-        const lettersUppered = []
-        
-        words.forEach(word => {
-          const firstLetter = word[0]
-          const firstLetterUppered = firstLetter.toUpperCase();          
-          const newWord = word.replace(word[0], firstLetterUppered)
+        // Upper first letter
+        if (id == "fullName") {
+          const nameUser = event.target.value;
+          const words = nameUser.split(" ");
+          const lettersUppered = [];
 
-          lettersUppered.push(newWord)
-        })
+          words.forEach((word) => {
+            const firstLetter = word[0];
+            const firstLetterUppered = firstLetter.toUpperCase();
+            const newWord = word.replace(word[0], firstLetterUppered);
 
-        const nameUppered = lettersUppered.join(" ")
+            lettersUppered.push(newWord);
+          });
+
+          const nameUppered = lettersUppered.join(" ");
+          event.target.value = nameUppered;
+        }
 
         spanEle.innerText = ""
         element.classList.remove("invalid");
-        labelEle.classList.remove("invalid");
-        
-        event.target.value = nameUppered
+        labelEle.classList.remove("invalid");        
       })
+    })
+
+    // Animation after user chose file
+    uploadEle.addEventListener("change", (event) => {
+      const labelEle = wrapperUploadEle.querySelector("label")
+      const prewviewEle = document.getElementById("previewImg")
+      const wrapperPreview = prewviewEle.parentElement
+      const spanEle = wrapperPreview.querySelector("span")
+      const reader = new FileReader()
+      const imgUploaded = uploadEle.files[0]
+      
+      reader.readAsDataURL(imgUploaded)
+      reader.addEventListener("load", () => {
+        localStorage.setItem("recent-img", reader.result)
+        console.log(localStorage.getItem("recent-img"))
+      })
+
+      const imgUrlCoverted = localStorage.getItem("recent-img")
+      
+      if (imgUrlCoverted) {
+        spanEle.remove()
+      }
+      prewviewEle.setAttribute("src", imgUrlCoverted)
+      labelEle.innerHTML = `<i class="fa-solid fa-check"></i>`   
     })
   },
 
@@ -470,6 +505,13 @@ const app = {
 
         break;
 
+      case "previewImg":
+        if (inputEle.src == "") {
+          spanEle.innerText = "Please choose your file";
+          return false
+        }
+        break;
+      
       default:
         break;
     }
@@ -478,7 +520,7 @@ const app = {
   },
 
   submitForm() {
-    const idElements = ["fullName", "email", "feedback"]
+    const idElements = ["fullName", "email", "feedback", "previewImg"]
     const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     const regexName = /^[^\d+]*[\d+]{0}[^\d+]*$/;
     const regexFeedback = ["fool", "dump", "asshole", "fuck", "fck", "piss off", "bugger off", "hell", "motherfucker"];

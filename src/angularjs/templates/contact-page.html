@@ -1,7 +1,7 @@
 <section class="wrapper form-feedback-section">
     <div class="inner">
         <h1 class="title--l">Please leave your feedback</h1>
-        <form action="" onsubmit="return app.submitForm()" name="feedback">
+        <form action="/" onsubmit="return app.submitForm()" name="feedback" class="pos-relative">
             <div class="w-input">
                 <input type="text" name="fullName" id="fullName" class="fn-input pos-center-y" required>
                 <label for="fullName" class="pos-center-y">Full name</label>
@@ -15,17 +15,31 @@
             </div>
 
             <div class="w-input">
-                <textarea name="feedback" id="feedback" required></textarea>
-                <label for="feedback">Your feedback</label>
-                <span class="warning-msg"></span>
+                <div class="w-feedback-input">
+                    <textarea name="feedback" id="feedback" required></textarea>
+                    <label for="feedback">Your feedback</label>
+                    <span class="warning-msg"></span>
+                    <div class="w-preview">
+                        <img id="previewImg">
+                        <span class="warning-msg"></span>
+                        <span class="pos-center">Preview</span>
+                    </div>
+                </div>
+
+                <div class="w-upload-input flex-center">
+                    <input type="file" name="" id="imgUser">
+                    <label for="imgUser"><i class="fa-solid fa-arrow-up-from-bracket"></i>Choose your file</label>
+                </div>
             </div>
 
+
+
             <div class="w-input rating pos-center-x">
-                <input type="radio" name="feeling-rating" class="star">
-                <input type="radio" name="feeling-rating" class="star">
-                <input type="radio" name="feeling-rating" class="star">
-                <input type="radio" name="feeling-rating" class="star">
-                <input type="radio" name="feeling-rating" class="star">
+                <input type="radio" name="feeling-rating" id="star1"><label for="star1" class="star"></label>
+                <input type="radio" name="feeling-rating" id="star2"><label for="star2" class="star"></label>
+                <input type="radio" name="feeling-rating" id="star3"><label for="star3" class="star"></label>
+                <input type="radio" name="feeling-rating" id="star4"><label for="star4" class="star"></label>
+                <input type="radio" name="feeling-rating" id="star5"><label for="star5" class="star"></label>
             </div>
 
             <button class="send-btn pos-center-x">SEND</button>
