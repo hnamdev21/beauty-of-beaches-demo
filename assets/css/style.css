@@ -22,7 +22,6 @@ header {
   z-index: 9999;
   height: 100px;
   background-color: transparent;
-
   transition: all 0.5s ease-in-out;
 }
 
@@ -137,6 +136,10 @@ header .wrapper-other-opt {
   transition: all 0.25;
 }
 
+.remove-beach--mb {
+  display: none;
+}
+
 .remove-beach:hover {
   background-color: #c0392be6;
 }
@@ -202,7 +205,7 @@ header .wrapper-other-opt {
   text-align: center;
 }
 
-.zone-section .wrapper-title .view-btn {
+.zone-section .view-btn {
   position: absolute;
   right: -55px;
   bottom: 0;
@@ -406,7 +409,6 @@ header .wrapper-other-opt {
   font-size: 3em;
   font-weight: 400;
   text-align: center;
-  /* color: #fff; */
 }
 
 .wrapper-list-auto {
@@ -492,7 +494,6 @@ header .wrapper-other-opt {
   font-size: 3em;
   font-weight: 400;
   text-align: center;
-  /* color: #fff; */
 }
 
 .festival-list {
@@ -501,7 +502,7 @@ header .wrapper-other-opt {
 
 .festival,
 .festival-card {
-  margin: 20px 0;
+  margin: 20px auto;
   width: 1200px;
   height: 400px;
   border: 0.5px solid #000;
@@ -518,7 +519,6 @@ header .wrapper-other-opt {
 }
 
 .festival__img img {
-  border-radius: 20px 0 0 20px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -598,7 +598,6 @@ header .wrapper-other-opt {
   font-size: 3em;
   font-weight: 400;
   text-align: center;
-  /* color: #fff; */
 }
 
 .traffic-section .stock-icon {
@@ -624,35 +623,13 @@ header .wrapper-other-opt {
 
 /* Footer */
 footer {
-  height: 400px;
+  height: 300px;
   background-color: var(--ocean);
   margin-top: 40px;
 }
 
-.footer__top {
-  height: 250px;
-}
-
-.footer__top ul {
-  /* display: flex; */
-  width: max-content;
-  margin: 0 auto;
-}
-
-.footer__top h5 {
-  padding: 20px 0 30px;
-  font-size: 2em;
-  font-weight: 400;
-  color: #fff;
-}
-
-.footer__top li {
-  font-size: 1.8em;
-  color: #fff;
-}
-
 .footer__bot {
-  height: 150px;
+  height: 100%;
 }
 
 .footer__bot .bot__email,

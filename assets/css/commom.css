@@ -6,7 +6,7 @@
 .inner,
 .container {
   position: relative;
-  width: min(100% - 40px, 1200px);
+  width: min(100% - 10px, 1200px);
   height: 100%;
   margin: 0 auto;
 }
@@ -14,6 +14,7 @@
 .title--l {
   font-size: 3em;
   letter-spacing: 2px;
+  font-weight: 450;
 }
 
 .title--md {

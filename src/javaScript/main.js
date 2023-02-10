@@ -165,11 +165,12 @@ const app = {
         favoriteItem.className = "favorite-beach flex-center";
         favoriteItem.innerHTML = `
             <div class="favorite-beach__img">
-                <a href="/gallery/beach/2">
+                <a href="/beauty-of-beaches-demo/gallery/beach/2">
                     <img src="${srcItem}" alt="">
                 </a>
             </div>
             <h5 class="favorite-beach__name">${nameItem}</h5>
+            <button class="remove-beach--mb"><i class="fa-solid fa-xmark"></i></button>
             <button class="remove-beach">Remove</button>`;
 
         if (app.checkItemInList(nameItem)) {
@@ -187,6 +188,42 @@ const app = {
 
       function getRemoveBtn() {
         const removeBtn = [...document.querySelectorAll(".remove-beach")];
+        const removeBtnMb = [...document.querySelectorAll(".remove-beach--mb")];
+
+        removeBtnMb.forEach((item) => {
+          item.addEventListener("click", removeBeach);
+
+          function removeBeach() {
+            console.log(`222`);
+            const btn = item;
+            const favoriteBeach = btn.parentElement;
+            const nameFavoriteBeach = favoriteBeach.querySelector(
+              ".favorite-beach__name"
+            ).innerText;
+            const cards = [...document.querySelectorAll(".card")];
+            const galleryCards = [...document.querySelectorAll(".beach-card")];
+
+            galleryCards.map((card) => {
+              const nameCard = card.querySelector(".beach__name").innerText;
+              const heartIcon = card.querySelector(".heart-icon");
+
+              if (nameCard == nameFavoriteBeach) {
+                heartIcon.classList = "heart-icon fa-regular fa-heart";
+              }
+            });
+
+            cards.map((card) => {
+              const nameCard = card.querySelector(".beach__name").innerText;
+              const heartIcon = card.querySelector(".heart-icon");
+
+              if (nameCard == nameFavoriteBeach) {
+                heartIcon.classList = "heart-icon fa-regular fa-heart";
+              }
+            });
+            favoriteBeach.remove();
+            countItem();
+          }
+        });
 
         removeBtn.forEach((item) => {
           item.addEventListener("click", removeBeach);
@@ -242,6 +279,17 @@ const app = {
         item.querySelector(".wrapper-list").scrollLeft +=
           card.offsetWidth + margin;
       }
+    });
+
+    // Fix style on mobile device
+    const menuCheckbox = document.querySelector("#menu-checkbox");
+    
+
+    menuCheckbox.addEventListener("click", (event) => {
+
+      const favoriteIcon = document.querySelector(".wrapper-other-opt");
+      
+      favoriteIcon.classList.toggle("hide")
     });
   },
 
