@@ -387,15 +387,31 @@ const app = {
         checkRequire(element, labelEle, spanEle, msg)
       })
 
-      element.addEventListener("keydown", event => {
+      element.addEventListener("keyup", event => {
+        const nameUser = event.target.value;
+        const words = nameUser.split(" ")
+        const lettersUppered = []
+        
+        words.forEach(word => {
+          const firstLetter = word[0]
+          const firstLetterUppered = firstLetter.toUpperCase();          
+          const newWord = word.replace(word[0], firstLetterUppered)
+
+          lettersUppered.push(newWord)
+        })
+
+        const nameUppered = lettersUppered.join(" ")
+
         spanEle.innerText = ""
         element.classList.remove("invalid");
         labelEle.classList.remove("invalid");
+        
+        event.target.value = nameUppered
       })
     })
   },
 
-  checkValid(idEle, regexName, regexEmail) {
+  checkValid(idEle, regexName, regexEmail, regexFeedback) {
     const inputEle = document.getElementById(`${idEle}`)
     const parentEle = inputEle.parentElement
     const labelEle = parentEle.querySelector("label")
@@ -406,16 +422,51 @@ const app = {
       case "fullName":
         if (!regexName.test(inputEle.value)) {
           msg = "Invalid name"
-        }
-        return false
 
+          spanEle.innerText = msg
+          labelEle.classList.add("invalid")
+          inputEle.classList.add("invalid")
+          spanEle.classList.add("invalid")
+
+          return false
+        }
         break;
 
       case "email":
         if (!regexEmail.test(inputEle.value)) {
           msg = "Invalid email"
+
+          spanEle.innerText = msg
+          labelEle.classList.add("invalid")
+          inputEle.classList.add("invalid");
+          spanEle.classList.add("invalid")
+
+          return false
         }
-        return false
+        break;
+      
+      case "feedback":
+        const words = inputEle.value.split(" ")
+        let countBadWord = 0
+        
+        words.forEach(word => {
+          regexFeedback.forEach(badWord => {
+            if (word == badWord) {
+              countBadWord++
+            }
+          })
+        })
+
+        if (countBadWord > 0) {
+          msg = "Please use beautiful words"
+
+          spanEle.innerText = msg
+          labelEle.classList.add("invalid")
+          inputEle.classList.add("invalid");
+          spanEle.classList.add("invalid")
+
+          return false
+        }
 
         break;
 
@@ -423,30 +474,29 @@ const app = {
         break;
     }
 
-    return false
+    return true
   },
 
   submitForm() {
-    console.log(`22222222`)
     const idElements = ["fullName", "email", "feedback"]
     const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     const regexName = /^[^\d+]*[\d+]{0}[^\d+]*$/;
+    const regexFeedback = ["fool", "dump", "asshole", "fuck", "fck", "piss off", "bugger off", "hell", "motherfucker"];
+    const isValids = idElements.map((id) => app.checkValid(id, regexName, regexEmail, regexFeedback));
+    let countFalse = 0
+    let isValid = true
+    
+    for(let i = 0; i < isValids.length; i++) {
+      if (isValids[i] == false) {
+        countFalse++
+      }
+    }
 
-    const isValids = idElements.map(id => {
-      app.checkValid(id, regexName, regexEmail);
-    })
-
-    console.log(isValids)
-
-    // return isValid.forEach(checked => {
-    //   if (checked == false) {
-    //     return false;
-    //   }
-
-    //   return true;
-    // })
-
-    return false;
+    if (countFalse > 0) {
+      isValid = false
+    }
+    
+    return isValid
   },
 };
 

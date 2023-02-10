@@ -8,7 +8,6 @@ angular.module("app", [
   // Internal
   "checkContinents",
   "go",
-  "headerPage",
   "footerPage",
   "homePage",
   "galleryPage",
