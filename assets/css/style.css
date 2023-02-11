@@ -31,6 +31,10 @@ header.sticky {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
+header .wrapper-nav--mb {
+  display: none;
+}
+
 header .wrapper-logo {
   height: 40px;
   width: auto;
