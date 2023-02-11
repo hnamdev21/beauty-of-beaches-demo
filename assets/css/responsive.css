@@ -44,6 +44,7 @@
   }
 
   header .wrapper-nav--mb {
+    display: block;
     position: absolute;
     right: 0;
     top: -20px;
@@ -138,19 +139,27 @@
     height: 200px;
   }
 
+  .zone-section .inner {
+    overflow: hidden;
+  }
+
   .wave {
     height: 180px;
-    width: 3200px;
+    /* width: 3200px; */
     top: -135px
   }
 
   .zone-section {
-    margin-top: 100px;
+    margin-top: 60px;
     height: 400px;
   }
 
   .zone-section .wrapper-title {
     width: max-content;
+  }
+
+  .zone-section .wrapper-wave {
+    bottom: -70px;
   }
 
   .zone-section h2 {
@@ -169,6 +178,10 @@
 
   .wrapper-zones .zone {
     border-radius: 5px;
+  }
+
+  .list-section {
+    padding: 0;
   }
 
   .wrapper-list {
@@ -267,7 +280,7 @@
 
   .festival,
   .festival-card {
-    width: 350px;
+    width: calc(100vw - 40px);
     height: 355px;
     border-radius: 10px;
   }
@@ -329,6 +342,7 @@
   }
 
   footer {
+    height: 150px;
     margin-top: 20px;
   }
 
@@ -440,6 +454,82 @@
   .beaches-section .btn {
     display: none;
   }
+
+  .form-feedback-section {
+    height: 900px;
+  }
+
+  .form-feedback-section .w-preview {
+    width: 100%;
+    top: unset;
+    bottom: -200px;
+    right: 0;
+  }
+
+  .form-feedback-section .rating {
+    bottom: -140px;
+  }
+
+  .form-feedback-section button {
+    bottom: -200px;
+  }
+
+  .form-feedback-section .w-upload-input {
+    margin-top: 220px;
+  }
+
+  .members-section {
+    height: 400px;
+  }
+
+  .members-section .grid-12 {
+    height: 300px;
+    grid-template-rows: 50px 1fr 1fr 50px;
+  }
+
+  .members-section .member-card:nth-child(1) {
+    grid-column: 5/9;
+    grid-row: 1/4;
+  }
+
+  .members-section .member-card:nth-child(2) {
+    grid-column: 1/5;
+    grid-row: 2/5;
+  }
+
+  .members-section .member-card:nth-child(3) {
+    grid-column: 9/13;
+    grid-row: 2/5;
+  }
+
+  .members-section .member__img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .members-section .member__name {
+    font-size: 12px;
+  }
+
+  .members-section .member__social {
+    padding: 5px 0;
+  }
+
+  .members-section .member__social li {
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .members-section .member__social a {
+    font-size: 12px;
+  }
+
+  .members-section .member__task li,
+  .members-section .member__pos {
+    font-size: 10px;
+  }
+
 }
 
 /* Tablet */
