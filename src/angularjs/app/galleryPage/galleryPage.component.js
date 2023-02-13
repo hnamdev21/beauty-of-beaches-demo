@@ -157,20 +157,20 @@ angular.module("galleryPage").component("galleryPage", {
     }
 
     function addActive() {
-      const liElements = [...document.querySelectorAll(".pagination li")];
-
-      liElements.forEach((liElement, index) => {
-        if (index + 1 == currentPage) {
-          liElement.classList.add("active");
-        } else {
-          liElement.classList.remove("active");
-        }
-      });
-
       setTimeout(() => {
+        const liElements = [...document.querySelectorAll(".pagination li")];
+
+        liElements.forEach((liElement, index) => {
+          if (index + 1 == currentPage) {
+            liElement.classList.add("active");
+          } else {
+            liElement.classList.remove("active");
+          }
+        });
+
         addEvent();
         fillIcon();
-      }, 500);
+      }, 100);
     }
 
     function renderBeaches(beaches, start, end) {
@@ -179,7 +179,7 @@ angular.module("galleryPage").component("galleryPage", {
 
     $scope.nextPagination = function () {
       currentPage++;
-
+      console.log(currentPage)
       if (currentPage > totalPages) {
         currentPage = totalPages;
       }
@@ -211,6 +211,15 @@ angular.module("galleryPage").component("galleryPage", {
       });
     };
 
-    window.addEventListener("popstate", addActive);
+    // function addListener() {
+    //   setTimeout(() => {
+    //     document.getElementById("gallery").addEventListener("click", () => {
+    //       addActive();
+    //     });
+    //   }, 1000)
+    // } 
+
+    // addListener()
+    addActive()
   },
 });
