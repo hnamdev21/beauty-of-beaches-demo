@@ -18,8 +18,7 @@ Student1424171 Nguyễn Ngọc Trường Sơn
 
 ============================
 
-eProject documentation at
-https://github.com/hnamdev21/beauty-of-beaches-demo/blob/main/README.md
+eProject documentation at https://github.com/hnamdev21/beauty-of-beaches-demo/
 
 ============================
 
