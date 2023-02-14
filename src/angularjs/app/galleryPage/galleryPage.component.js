@@ -211,15 +211,6 @@ angular.module("galleryPage").component("galleryPage", {
       });
     };
 
-    // function addListener() {
-    //   setTimeout(() => {
-    //     document.getElementById("gallery").addEventListener("click", () => {
-    //       addActive();
-    //     });
-    //   }, 1000)
-    // } 
-
-    // addListener()
     addActive()
   },
 });
