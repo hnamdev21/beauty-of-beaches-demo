@@ -207,7 +207,7 @@ angular.module("galleryPage").component("galleryPage", {
 
     $scope.goToThePath = function (beach) {
       $rootScope.$apply(function () {
-        $location.path("/beauty-of-beaches-demo/gallery/beach/" + beach.id);
+        $location.path("/gallery/beach/" + beach.id);
       });
     };
 
