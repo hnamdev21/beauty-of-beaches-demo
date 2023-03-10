@@ -2,7 +2,7 @@ const app = {
   init() {
     const homeLink = document.getElementById("home");
     const galleryLink = document.getElementById("gallery");
-    const contactLink = document.getElementById("contact")
+    const contactLink = document.getElementById("contact");
     const logo = document.getElementById("logo-link");
 
     //Wait render component
@@ -19,7 +19,7 @@ const app = {
 
     contactLink.addEventListener("click", (event) => {
       addEvent("contact");
-    })
+    });
 
     function addEvent(page) {
       if (page == "home") {
@@ -32,7 +32,7 @@ const app = {
           viewBeachesBtn.addEventListener("click", (event) => {
             addEvent("gallery");
           });
-        }, 500);
+        }, 1000);
 
         return;
       }
@@ -41,7 +41,7 @@ const app = {
         setTimeout(() => {
           app.addListenerGalleryPage();
           app.fillIconGalleryPage();
-        }, 500);
+        }, 1000);
 
         return;
       }
@@ -49,7 +49,7 @@ const app = {
       if (page == "contact") {
         setTimeout(() => {
           app.addListenerContactPage();
-        }, 500);
+        }, 1000);
       }
     }
   },
@@ -283,13 +283,11 @@ const app = {
 
     // Fix style on mobile device
     const menuCheckbox = document.querySelector("#menu-checkbox");
-    
 
     menuCheckbox.addEventListener("click", (event) => {
-
       const favoriteIcon = document.querySelector(".wrapper-other-opt");
-      
-      favoriteIcon.classList.toggle("hide")
+
+      favoriteIcon.classList.toggle("hide");
     });
   },
 
@@ -398,31 +396,31 @@ const app = {
   },
 
   addListenerContactPage() {
-    const uploadEle = document.getElementById("imgUser")
-    const wrapperUploadEle = uploadEle.parentElement
-    const idElements = ["fullName", "email", "feedback", "previewImg"]
+    const uploadEle = document.getElementById("imgUser");
+    const wrapperUploadEle = uploadEle.parentElement;
+    const idElements = ["fullName", "email", "feedback", "previewImg"];
 
     // Valid form
     function checkRequire(inputEle, labelEle, spanEle, msg) {
-        if (inputEle.value.trim() == "") {
-          spanEle.innerText = msg;
-          inputEle.classList.add("invalid");
-          labelEle.classList.add("invalid");
-        } else {
-          spanEle.innerText = "";
-          inputEle.classList.remove("invalid");
-          labelEle.classList.remove("invalid");
-        }
+      if (inputEle.value.trim() == "") {
+        spanEle.innerText = msg;
+        inputEle.classList.add("invalid");
+        labelEle.classList.add("invalid");
+      } else {
+        spanEle.innerText = "";
+        inputEle.classList.remove("invalid");
+        labelEle.classList.remove("invalid");
+      }
     }
 
-    idElements.forEach(id => {
-      const element = document.getElementById(`${id}`)
-      const parentEle = element.parentElement
-      const spanEle = parentEle.querySelector(".warning-msg")
-      const labelEle = parentEle.querySelector("label")
-      let temp = ""
-      
-      element.addEventListener("blur", event => {
+    idElements.forEach((id) => {
+      const element = document.getElementById(`${id}`);
+      const parentEle = element.parentElement;
+      const spanEle = parentEle.querySelector(".warning-msg");
+      const labelEle = parentEle.querySelector("label");
+      let temp = "";
+
+      element.addEventListener("blur", (event) => {
         const valueInput = event.target.value;
         let msg = "";
 
@@ -441,10 +439,10 @@ const app = {
         }
         msg = `Please enter your ${temp}`;
 
-        checkRequire(element, labelEle, spanEle, msg)
-      })
+        checkRequire(element, labelEle, spanEle, msg);
+      });
 
-      element.addEventListener("keyup", event => {
+      element.addEventListener("keyup", (event) => {
         // Upper first letter
         if (id == "fullName") {
           const nameUser = event.target.value;
@@ -463,92 +461,92 @@ const app = {
           event.target.value = nameUppered;
         }
 
-        spanEle.innerText = ""
+        spanEle.innerText = "";
         element.classList.remove("invalid");
-        labelEle.classList.remove("invalid");        
-      })
-    })
+        labelEle.classList.remove("invalid");
+      });
+    });
 
     // Animation after user chose file
     uploadEle.addEventListener("change", (event) => {
-      const labelEle = wrapperUploadEle.querySelector("label")
-      const prewviewEle = document.getElementById("previewImg")
-      const wrapperPreview = prewviewEle.parentElement
-      const spanEle = wrapperPreview.querySelector("span")
-      const reader = new FileReader()
-      const imgUploaded = uploadEle.files[0]
-      
-      reader.readAsDataURL(imgUploaded)
-      reader.addEventListener("load", () => {
-        localStorage.setItem("recent-img", reader.result)
-        console.log(localStorage.getItem("recent-img"))
-      })
+      const labelEle = wrapperUploadEle.querySelector("label");
+      const prewviewEle = document.getElementById("previewImg");
+      const wrapperPreview = prewviewEle.parentElement;
+      const spanEle = wrapperPreview.querySelector("span");
+      const reader = new FileReader();
+      const imgUploaded = uploadEle.files[0];
 
-      const imgUrlCoverted = localStorage.getItem("recent-img")
-      
+      reader.readAsDataURL(imgUploaded);
+      reader.addEventListener("load", () => {
+        localStorage.setItem("recent-img", reader.result);
+        console.log(localStorage.getItem("recent-img"));
+      });
+
+      const imgUrlCoverted = localStorage.getItem("recent-img");
+
       if (imgUrlCoverted) {
-        spanEle.remove()
+        spanEle.remove();
       }
-      prewviewEle.setAttribute("src", imgUrlCoverted)
-      labelEle.innerHTML = `<i class="fa-solid fa-check"></i>`   
-    })
+      prewviewEle.setAttribute("src", imgUrlCoverted);
+      labelEle.innerHTML = `<i class="fa-solid fa-check"></i>`;
+    });
   },
 
   checkValid(idEle, regexName, regexEmail, regexFeedback) {
-    const inputEle = document.getElementById(`${idEle}`)
-    const parentEle = inputEle.parentElement
-    const labelEle = parentEle.querySelector("label")
-    const spanEle = parentEle.querySelector(".warning-msg")
-    let msg = ""
+    const inputEle = document.getElementById(`${idEle}`);
+    const parentEle = inputEle.parentElement;
+    const labelEle = parentEle.querySelector("label");
+    const spanEle = parentEle.querySelector(".warning-msg");
+    let msg = "";
 
     switch (idEle) {
       case "fullName":
         if (!regexName.test(inputEle.value)) {
-          msg = "Invalid name"
+          msg = "Invalid name";
 
-          spanEle.innerText = msg
-          labelEle.classList.add("invalid")
-          inputEle.classList.add("invalid")
-          spanEle.classList.add("invalid")
+          spanEle.innerText = msg;
+          labelEle.classList.add("invalid");
+          inputEle.classList.add("invalid");
+          spanEle.classList.add("invalid");
 
-          return false
+          return false;
         }
         break;
 
       case "email":
         if (!regexEmail.test(inputEle.value)) {
-          msg = "Invalid email"
+          msg = "Invalid email";
 
-          spanEle.innerText = msg
-          labelEle.classList.add("invalid")
+          spanEle.innerText = msg;
+          labelEle.classList.add("invalid");
           inputEle.classList.add("invalid");
-          spanEle.classList.add("invalid")
+          spanEle.classList.add("invalid");
 
-          return false
+          return false;
         }
         break;
-      
+
       case "feedback":
-        const words = inputEle.value.split(" ")
-        let countBadWord = 0
-        
-        words.forEach(word => {
-          regexFeedback.forEach(badWord => {
+        const words = inputEle.value.split(" ");
+        let countBadWord = 0;
+
+        words.forEach((word) => {
+          regexFeedback.forEach((badWord) => {
             if (word == badWord) {
-              countBadWord++
+              countBadWord++;
             }
-          })
-        })
+          });
+        });
 
         if (countBadWord > 0) {
-          msg = "Please use beautiful words"
+          msg = "Please use beautiful words";
 
-          spanEle.innerText = msg
-          labelEle.classList.add("invalid")
+          spanEle.innerText = msg;
+          labelEle.classList.add("invalid");
           inputEle.classList.add("invalid");
-          spanEle.classList.add("invalid")
+          spanEle.classList.add("invalid");
 
-          return false
+          return false;
         }
 
         break;
@@ -556,37 +554,49 @@ const app = {
       case "previewImg":
         if (inputEle.src == "") {
           spanEle.innerText = "Please choose your file";
-          return false
+          return false;
         }
         break;
-      
+
       default:
         break;
     }
 
-    return true
+    return true;
   },
 
   submitForm() {
-    const idElements = ["fullName", "email", "feedback", "previewImg"]
+    const idElements = ["fullName", "email", "feedback", "previewImg"];
     const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     const regexName = /^[^\d+]*[\d+]{0}[^\d+]*$/;
-    const regexFeedback = ["fool", "dump", "asshole", "fuck", "fck", "piss off", "bugger off", "hell", "motherfucker"];
-    const isValids = idElements.map((id) => app.checkValid(id, regexName, regexEmail, regexFeedback));
-    let countFalse = 0
-    let isValid = true
-    
-    for(let i = 0; i < isValids.length; i++) {
+    const regexFeedback = [
+      "fool",
+      "dump",
+      "asshole",
+      "fuck",
+      "fck",
+      "piss off",
+      "bugger off",
+      "hell",
+      "motherfucker",
+    ];
+    const isValids = idElements.map((id) =>
+      app.checkValid(id, regexName, regexEmail, regexFeedback)
+    );
+    let countFalse = 0;
+    let isValid = true;
+
+    for (let i = 0; i < isValids.length; i++) {
       if (isValids[i] == false) {
-        countFalse++
+        countFalse++;
       }
     }
 
     if (countFalse > 0) {
-      isValid = false
+      isValid = false;
     }
-    
-    return isValid
+
+    return isValid;
   },
 };
 
